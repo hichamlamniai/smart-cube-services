@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "title": "Smart Cube Services – Digital Transformation & Technology",
+    "description": "Expert in digital transformation, telecommunications, datacenter, mobile applications and AI agents in Morocco and internationally."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "lang": "FR",
+    "cta": "Talk to an expert"
+  },
+  "home": {
+    "hero": {
+      "badge": "Technology Innovation Expert",
+      "title": "Transform your",
+      "titleHighlight": "Digital Future",
+      "subtitle": "Smart Cube Services supports businesses in their digital transformation with tailored solutions in telecommunications, datacenter, mobile applications and artificial intelligence.",
+      "cta1": "Discover our services",
+      "cta2": "Contact us"
+    },
+    "stats": {
+      "projects": "Projects completed",
+      "clients": "Satisfied clients",
+      "experts": "Certified experts",
+      "years": "Years of experience"
+    },
+    "services": {
+      "title": "Our Areas of Expertise",
+      "subtitle": "Integrated solutions to accelerate your digital transformation"
+    },
+    "why": {
+      "title": "Why choose Smart Cube Services?",
+      "subtitle": "Our approach combines technical expertise and strategic support for measurable results",
+      "items": [
+        { "title": "Certified Expertise", "desc": "Team of consultants certified by global technology leaders" },
+        { "title": "Tailored Approach", "desc": "Personalized solutions adapted to your needs and industry" },
+        { "title": "24/7 Support", "desc": "Continuous support to ensure the continuity of your operations" },
+        { "title": "Continuous Innovation", "desc": "Permanent technology watch to offer you the best solutions" }
+      ]
+    },
+    "cta": {
+      "title": "Ready to transform your business?",
+      "subtitle": "Contact our experts for a free audit of your digital needs",
+      "btn": "Request a free audit"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "A complete range of Consulting, Engineering & Design, and Training services",
+    "tabs": {
+      "conseil": "Consulting",
+      "ingenierie": "Engineering & Design",
+      "formation": "Training"
+    },
+    "list": {
+      "digital": {
+        "name": "Digital Transformation",
+        "shortDesc": "Drive your digital transition with a strategic vision and adapted tools.",
+        "color": "#6366F1"
+      },
+      "telecom": {
+        "name": "Telecommunications & Private Networks",
+        "shortDesc": "High-performance and secure network infrastructure for your connectivity.",
+        "color": "#0EA5E9"
+      },
+      "datacenter": {
+        "name": "Datacenter",
+        "shortDesc": "Architecture and management of your critical datacenter infrastructure.",
+        "color": "#8B5CF6"
+      },
+      "mobile": {
+        "name": "Mobile Applications",
+        "shortDesc": "Development of innovative native and cross-platform mobile applications.",
+        "color": "#10B981"
+      },
+      "ai": {
+        "name": "AI Agents",
+        "shortDesc": "Integration of artificial intelligence to automate and optimize your processes.",
+        "color": "#F59E0B"
+      }
+    }
+  },
+  "serviceDetail": {
+    "conseil": {
+      "title": "Strategic Consulting",
+      "desc": "Our senior consultants support you in defining your strategy and planning your projects."
+    },
+    "ingenierie": {
+      "title": "Engineering & Design",
+      "desc": "Design, architecture and deployment of robust and scalable technical solutions."
+    },
+    "formation": {
+      "title": "Training & Skills Transfer",
+      "desc": "Certification training programs to upskill your teams."
+    },
+    "cta": "Request a quote",
+    "back": "Back to services"
+  },
+  "digital": {
+    "hero": {
+      "badge": "Digital Transformation",
+      "title": "Lead your",
+      "titleHighlight": "Digital Revolution",
+      "subtitle": "Smart Cube Services guides you through every step of your digital transformation, from strategy to operational implementation."
+    },
+    "conseil": {
+      "title": "Digital Transformation Consulting",
+      "items": [
+        { "title": "Digital Audit", "desc": "Assessment of your digital maturity and identification of improvement opportunities." },
+        { "title": "Digitalization Strategy", "desc": "Development of a digital roadmap aligned with your business objectives." },
+        { "title": "Change Management", "desc": "Human and organizational support for successful adoption." },
+        { "title": "Data Governance", "desc": "Implementation of data management and value creation policies." }
+      ]
+    },
+    "ingenierie": {
+      "title": "Digital Engineering & Design",
+      "items": [
+        { "title": "IS Architecture", "desc": "Design of modern and scalable information system architectures." },
+        { "title": "ERP/CRM Integration", "desc": "Deployment and integration of enterprise management solutions." },
+        { "title": "Cloud Migration", "desc": "Secure migration of your systems to the cloud (AWS, Azure, GCP)." },
+        { "title": "DevOps & CI/CD", "desc": "Implementation of continuous integration and deployment pipelines." }
+      ]
+    },
+    "formation": {
+      "title": "Digital Transformation Training",
+      "items": [
+        { "title": "Digital Leadership", "desc": "Training executives on digital challenges and opportunities." },
+        { "title": "Collaborative Tools", "desc": "Mastering collaborative platforms (M365, Google Workspace)." },
+        { "title": "Agile Project Management", "desc": "Scrum, SAFe certifications and agile methodologies." },
+        { "title": "Cybersecurity Fundamentals", "desc": "Awareness and security best practices for all employees." }
+      ]
+    }
+  },
+  "telecom": {
+    "hero": {
+      "badge": "Telecommunications",
+      "title": "High Performance",
+      "titleHighlight": "Network Infrastructure",
+      "subtitle": "Design and deployment of telecom and private network infrastructure for reliable and secure connectivity."
+    },
+    "conseil": {
+      "title": "Telecommunications Consulting",
+      "items": [
+        { "title": "Network Audit", "desc": "Complete analysis of your network infrastructure and improvement recommendations." },
+        { "title": "Telecom Strategy", "desc": "Definition of a telecom strategy adapted to your needs and budget." },
+        { "title": "Private Networks (MPLS/SD-WAN)", "desc": "Advice on the choice and implementation of enterprise private networks." },
+        { "title": "5G & IoT", "desc": "Support for adopting 5G and Internet of Things technologies." }
+      ]
+    },
+    "ingenierie": {
+      "title": "Network Engineering",
+      "items": [
+        { "title": "Fiber Optic Deployment", "desc": "Design and deployment of high-capacity fiber optic infrastructure." },
+        { "title": "SD-WAN", "desc": "Architecture and deployment of software-defined WAN networks." },
+        { "title": "Network Security", "desc": "Firewalls, IDS/IPS, VPN and perimeter security solutions." },
+        { "title": "Wireless Networks", "desc": "Enterprise WiFi deployment and private LTE/5G networks." }
+      ]
+    },
+    "formation": {
+      "title": "Network & Telecom Training",
+      "items": [
+        { "title": "Cisco CCNA/CCNP", "desc": "Cisco certification preparation for network technicians and engineers." },
+        { "title": "Juniper Networks", "desc": "Training on Juniper Networks equipment and solutions." },
+        { "title": "Network Management", "desc": "Administration and monitoring of network infrastructure." },
+        { "title": "Advanced Network Security", "desc": "Advanced techniques for securing network infrastructure." }
+      ]
+    }
+  },
+  "datacenter": {
+    "hero": {
+      "badge": "Datacenter",
+      "title": "High Availability",
+      "titleHighlight": "Datacenter Infrastructure",
+      "subtitle": "Design, deployment and management of modern datacenters to guarantee the availability and performance of your critical systems."
+    },
+    "conseil": {
+      "title": "Datacenter Consulting",
+      "items": [
+        { "title": "Infrastructure Audit", "desc": "Complete evaluation of your datacenter infrastructure and optimization recommendations." },
+        { "title": "DC/Cloud Strategy", "desc": "Definition of the optimal strategy between on-premise datacenter and cloud." },
+        { "title": "Disaster Recovery Plan", "desc": "Design of DRP/BCP solutions to ensure business continuity." },
+        { "title": "Green IT", "desc": "Advice on energy optimization and carbon footprint reduction." }
+      ]
+    },
+    "ingenierie": {
+      "title": "Datacenter Engineering",
+      "items": [
+        { "title": "Datacenter Architecture", "desc": "Design of redundant and high-availability datacenter architectures." },
+        { "title": "Virtualization", "desc": "Deployment of VMware, Hyper-V and advanced virtualization solutions." },
+        { "title": "SAN/NAS Storage", "desc": "High-performance storage solutions for your critical data." },
+        { "title": "Converged Infrastructure", "desc": "Deployment of hyper-converged (HCI) solutions to simplify your IT." }
+      ]
+    },
+    "formation": {
+      "title": "Datacenter Training",
+      "items": [
+        { "title": "VMware vSphere", "desc": "VCP certification and mastery of VMware virtualization." },
+        { "title": "Linux/Windows Server Administration", "desc": "Management and administration of server systems." },
+        { "title": "Cloud AWS/Azure/GCP", "desc": "Cloud certifications for architects and administrators." },
+        { "title": "Infrastructure Security", "desc": "Protecting datacenter environments from cyber threats." }
+      ]
+    }
+  },
+  "mobile": {
+    "hero": {
+      "badge": "Mobile Applications",
+      "title": "Create Applications",
+      "titleHighlight": "That Make a Difference",
+      "subtitle": "Development of innovative, high-performance mobile applications centered on user experience for iOS and Android."
+    },
+    "conseil": {
+      "title": "Mobile Applications Consulting",
+      "items": [
+        { "title": "Mobile Audit", "desc": "Analysis of your needs and definition of the appropriate mobile strategy." },
+        { "title": "UX/UI Strategy", "desc": "Design of engaging and intuitive user experiences." },
+        { "title": "Technology Choice", "desc": "Advice on choosing between native, cross-platform and PWA based on your goals." },
+        { "title": "Monetization & Marketing", "desc": "Go-to-market and monetization strategies for your application." }
+      ]
+    },
+    "ingenierie": {
+      "title": "Mobile Development",
+      "items": [
+        { "title": "Native iOS (Swift)", "desc": "Native iOS development with Swift for optimal performance." },
+        { "title": "Native Android (Kotlin)", "desc": "High-performance native Android applications developed in Kotlin." },
+        { "title": "React Native & Flutter", "desc": "Cross-platform development to maximize your return on investment." },
+        { "title": "Backend & API", "desc": "Design and development of backends and APIs for your applications." }
+      ]
+    },
+    "formation": {
+      "title": "Mobile Development Training",
+      "items": [
+        { "title": "iOS/Swift Development", "desc": "Complete iOS development training with the latest Apple technologies." },
+        { "title": "Android/Kotlin Development", "desc": "Mastering Android development with Kotlin and Jetpack Compose." },
+        { "title": "React Native", "desc": "Cross-platform application development with React Native." },
+        { "title": "Flutter & Dart", "desc": "Creating mobile applications with Google's Flutter framework." }
+      ]
+    }
+  },
+  "ai": {
+    "hero": {
+      "badge": "AI Agents",
+      "title": "Artificial Intelligence",
+      "titleHighlight": "at the Service of your Business",
+      "subtitle": "Integration of intelligent AI agents to automate processes, increase productivity and create new value opportunities."
+    },
+    "conseil": {
+      "title": "AI & Automation Consulting",
+      "items": [
+        { "title": "AI Audit", "desc": "Identification of automation and AI opportunities in your business processes." },
+        { "title": "AI Strategy", "desc": "Definition of an AI roadmap aligned with your strategic objectives." },
+        { "title": "Ethics & AI Governance", "desc": "Implementation of responsible governance frameworks for your AI systems." },
+        { "title": "ROI & Business Case", "desc": "Modeling the return on investment of your AI projects." }
+      ]
+    },
+    "ingenierie": {
+      "title": "AI Agents Development",
+      "items": [
+        { "title": "Conversational Agents", "desc": "Development of intelligent chatbots and virtual assistants (RAG, LLM)." },
+        { "title": "RPA Automation", "desc": "Software robots to automate repetitive and high-value tasks." },
+        { "title": "Computer Vision", "desc": "Computer vision solutions for inspection and image recognition." },
+        { "title": "Predictive Analytics", "desc": "Machine learning models for decision support and forecasting." }
+      ]
+    },
+    "formation": {
+      "title": "Artificial Intelligence Training",
+      "items": [
+        { "title": "AI for Managers", "desc": "Understanding AI challenges to manage AI projects in business." },
+        { "title": "Machine Learning & Data Science", "desc": "Python, scikit-learn, TensorFlow training for data scientists." },
+        { "title": "Prompt Engineering", "desc": "Mastering LLMs and prompt engineering techniques for teams." },
+        { "title": "MLOps Deployment", "desc": "Putting AI models into production and monitoring in production environments." }
+      ]
+    }
+  },
+  "blog": {
+    "title": "Blog & News",
+    "subtitle": "Technology trends, national and international news in our areas of expertise",
+    "categories": {
+      "all": "All",
+      "digital": "Digital Transformation",
+      "telecom": "Telecom",
+      "datacenter": "Datacenter",
+      "mobile": "Mobile",
+      "ai": "Artificial Intelligence",
+      "national": "Morocco Digital",
+      "international": "International"
+    },
+    "readMore": "Read more",
+    "loading": "Loading articles...",
+    "noArticles": "No articles available",
+    "publishedAt": "Published on",
+    "source": "Source"
+  },
+  "about": {
+    "hero": {
+      "badge": "About",
+      "title": "Smart Cube Services,",
+      "titleHighlight": "your technology partner",
+      "subtitle": "Founded by technology enthusiasts, Smart Cube Services is a consulting and engineering firm specialized in innovative digital solutions for businesses."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "desc": "To support organizations in their digital transformation by providing high value-added technology solutions, combining technical expertise and strategic vision."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "To be the reference technology partner in Africa and the Middle East, recognized for our operational excellence and capacity to innovate."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        { "title": "Excellence", "desc": "We strive for excellence in every project, every deliverable, every interaction." },
+        { "title": "Innovation", "desc": "We cultivate a culture of continuous innovation to anticipate tomorrow's needs." },
+        { "title": "Integrity", "desc": "Trust is the foundation of all our relationships with clients and partners." },
+        { "title": "Agility", "desc": "We adapt quickly to technological developments and our clients' needs." }
+      ]
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Certified and passionate experts at your service"
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Contact",
+      "title": "Let's talk about your",
+      "titleHighlight": "Project",
+      "subtitle": "Our team of experts is available to answer your questions and offer solutions tailored to your needs."
+    },
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "phone": "Phone",
+      "company": "Company",
+      "service": "Service concerned",
+      "message": "Your message",
+      "submit": "Send message",
+      "success": "Message sent successfully! We will reply within 24 hours.",
+      "selectService": "Select a service"
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Hours"
+    }
+  },
+  "footer": {
+    "desc": "Expert in digital transformation, telecommunications, datacenter, mobile applications and artificial intelligence.",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal notice",
+    "privacy": "Privacy",
+    "rights": "All rights reserved"
+  }
+}

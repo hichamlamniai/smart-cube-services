@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "title": "Smart Cube Services – Transformation Digitale & Technologies",
+    "description": "Expert en transformation digitale, télécommunications, datacenter, applications mobiles et agents IA au Maroc et à l'international."
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "blog": "Blog",
+    "about": "À propos",
+    "contact": "Contact",
+    "lang": "EN",
+    "cta": "Parler à un expert"
+  },
+  "home": {
+    "hero": {
+      "badge": "Expert en Innovation Technologique",
+      "title": "Transformez votre",
+      "titleHighlight": "Futur Digital",
+      "subtitle": "Smart Cube Services accompagne les entreprises dans leur transformation numérique avec des solutions sur-mesure en télécommunications, datacenter, applications mobiles et intelligence artificielle.",
+      "cta1": "Découvrir nos services",
+      "cta2": "Nous contacter"
+    },
+    "stats": {
+      "projects": "Projets réalisés",
+      "clients": "Clients satisfaits",
+      "experts": "Experts certifiés",
+      "years": "Années d'expérience"
+    },
+    "services": {
+      "title": "Nos Domaines d'Expertise",
+      "subtitle": "Des solutions intégrées pour accélérer votre transformation numérique"
+    },
+    "why": {
+      "title": "Pourquoi choisir Smart Cube Services ?",
+      "subtitle": "Notre approche combine expertise technique et accompagnement stratégique pour des résultats mesurables",
+      "items": [
+        { "title": "Expertise Certifiée", "desc": "Équipe de consultants certifiés par les leaders technologiques mondiaux" },
+        { "title": "Approche Sur-Mesure", "desc": "Solutions personnalisées adaptées à vos besoins et votre secteur d'activité" },
+        { "title": "Support 24/7", "desc": "Accompagnement continu pour garantir la continuité de vos opérations" },
+        { "title": "Innovation Continue", "desc": "Veille technologique permanente pour vous proposer les meilleures solutions" }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à transformer votre entreprise ?",
+      "subtitle": "Contactez nos experts pour un audit gratuit de vos besoins digitaux",
+      "btn": "Demander un audit gratuit"
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Une offre complète de services en Conseil, Ingénierie & Design, et Formation",
+    "tabs": {
+      "conseil": "Conseil",
+      "ingenierie": "Ingénierie & Design",
+      "formation": "Formation"
+    },
+    "list": {
+      "digital": {
+        "name": "Transformation Digitale",
+        "shortDesc": "Pilotez votre transition numérique avec une vision stratégique et des outils adaptés.",
+        "color": "#6366F1"
+      },
+      "telecom": {
+        "name": "Télécommunications & Réseaux Privés",
+        "shortDesc": "Infrastructures réseau performantes et sécurisées pour votre connectivité.",
+        "color": "#0EA5E9"
+      },
+      "datacenter": {
+        "name": "Datacenter",
+        "shortDesc": "Architecture et gestion de vos infrastructures datacenter critiques.",
+        "color": "#8B5CF6"
+      },
+      "mobile": {
+        "name": "Applications Mobiles",
+        "shortDesc": "Développement d'applications mobiles natives et cross-platform innovantes.",
+        "color": "#10B981"
+      },
+      "ai": {
+        "name": "Agent IA",
+        "shortDesc": "Intégration de l'intelligence artificielle pour automatiser et optimiser vos processus.",
+        "color": "#F59E0B"
+      }
+    }
+  },
+  "serviceDetail": {
+    "conseil": {
+      "title": "Conseil Stratégique",
+      "desc": "Nos consultants senior vous accompagnent dans la définition de votre stratégie et la planification de vos projets."
+    },
+    "ingenierie": {
+      "title": "Ingénierie & Design",
+      "desc": "Conception, architecture et déploiement de solutions techniques robustes et scalables."
+    },
+    "formation": {
+      "title": "Formation & Transfert de Compétences",
+      "desc": "Programmes de formation certifiants pour monter en compétences vos équipes."
+    },
+    "cta": "Demander un devis",
+    "back": "Retour aux services"
+  },
+  "digital": {
+    "hero": {
+      "badge": "Transformation Digitale",
+      "title": "Pilotez votre",
+      "titleHighlight": "Révolution Numérique",
+      "subtitle": "Smart Cube Services vous accompagne dans chaque étape de votre transformation digitale, de la stratégie à la mise en œuvre opérationnelle."
+    },
+    "conseil": {
+      "title": "Conseil en Transformation Digitale",
+      "items": [
+        { "title": "Audit Digital", "desc": "Évaluation de votre maturité digitale et identification des opportunités d'amélioration." },
+        { "title": "Stratégie de Digitalisation", "desc": "Élaboration d'une feuille de route digitale alignée sur vos objectifs business." },
+        { "title": "Conduite du Changement", "desc": "Accompagnement humain et organisationnel pour une adoption réussie." },
+        { "title": "Gouvernance des Données", "desc": "Mise en place de politiques de gestion et de valorisation des données." }
+      ]
+    },
+    "ingenierie": {
+      "title": "Ingénierie & Design Digital",
+      "items": [
+        { "title": "Architecture SI", "desc": "Conception d'architectures systèmes d'information modernes et évolutives." },
+        { "title": "Intégration ERP/CRM", "desc": "Déploiement et intégration de solutions de gestion d'entreprise." },
+        { "title": "Cloud Migration", "desc": "Migration sécurisée de vos systèmes vers le cloud (AWS, Azure, GCP)." },
+        { "title": "DevOps & CI/CD", "desc": "Mise en place de pipelines d'intégration et déploiement continus." }
+      ]
+    },
+    "formation": {
+      "title": "Formation Transformation Digitale",
+      "items": [
+        { "title": "Leadership Digital", "desc": "Formation des dirigeants aux enjeux et opportunités du numérique." },
+        { "title": "Outils Collaboratifs", "desc": "Maîtrise des plateformes de travail collaboratif (M365, Google Workspace)." },
+        { "title": "Gestion de Projet Agile", "desc": "Certifications Scrum, SAFe et méthodologies agiles." },
+        { "title": "Cybersécurité Fondamentaux", "desc": "Sensibilisation et bonnes pratiques de sécurité pour tous les collaborateurs." }
+      ]
+    }
+  },
+  "telecom": {
+    "hero": {
+      "badge": "Télécommunications",
+      "title": "Infrastructures Réseau",
+      "titleHighlight": "Haute Performance",
+      "subtitle": "Conception et déploiement d'infrastructures télécoms et réseaux privés pour une connectivité fiable et sécurisée."
+    },
+    "conseil": {
+      "title": "Conseil Télécommunications",
+      "items": [
+        { "title": "Audit Réseau", "desc": "Analyse complète de vos infrastructures réseau et identification des points d'amélioration." },
+        { "title": "Stratégie Télécoms", "desc": "Définition d'une stratégie télécom adaptée à vos besoins et votre budget." },
+        { "title": "Réseaux Privés (MPLS/SD-WAN)", "desc": "Conseil sur le choix et l'implémentation de réseaux privés d'entreprise." },
+        { "title": "5G & IoT", "desc": "Accompagnement dans l'adoption des technologies 5G et Internet des Objets." }
+      ]
+    },
+    "ingenierie": {
+      "title": "Ingénierie Réseau",
+      "items": [
+        { "title": "Déploiement Fibre Optique", "desc": "Conception et déploiement d'infrastructures fibre optique haute capacité." },
+        { "title": "SD-WAN", "desc": "Architecture et déploiement de réseaux WAN définis par logiciel." },
+        { "title": "Sécurité Réseau", "desc": "Firewalls, IDS/IPS, VPN et solutions de sécurité périmétrique." },
+        { "title": "Réseaux Sans Fil", "desc": "Déploiement WiFi entreprise et réseaux privés LTE/5G." }
+      ]
+    },
+    "formation": {
+      "title": "Formation Réseau & Télécoms",
+      "items": [
+        { "title": "Cisco CCNA/CCNP", "desc": "Préparation aux certifications Cisco pour techniciens et ingénieurs réseau." },
+        { "title": "Juniper Networks", "desc": "Formation aux équipements et solutions Juniper Networks." },
+        { "title": "Gestion des Réseaux", "desc": "Administration et supervision des infrastructures réseau." },
+        { "title": "Sécurité Réseau Avancée", "desc": "Techniques avancées de sécurisation des infrastructures réseau." }
+      ]
+    }
+  },
+  "datacenter": {
+    "hero": {
+      "badge": "Datacenter",
+      "title": "Infrastructures Datacenter",
+      "titleHighlight": "Haute Disponibilité",
+      "subtitle": "Conception, déploiement et gestion de datacenters modernes pour garantir la disponibilité et la performance de vos systèmes critiques."
+    },
+    "conseil": {
+      "title": "Conseil Datacenter",
+      "items": [
+        { "title": "Audit Infrastructure", "desc": "Évaluation complète de vos infrastructures datacenter et recommandations d'optimisation." },
+        { "title": "Stratégie DC/Cloud", "desc": "Définition de la stratégie optimale entre datacenter on-premise et cloud." },
+        { "title": "Plan de Reprise d'Activité", "desc": "Conception de solutions PRA/PCA pour assurer la continuité business." },
+        { "title": "Green IT", "desc": "Conseil en optimisation énergétique et réduction de l'empreinte carbone." }
+      ]
+    },
+    "ingenierie": {
+      "title": "Ingénierie Datacenter",
+      "items": [
+        { "title": "Architecture Datacenter", "desc": "Conception d'architectures datacenter redondantes et haute disponibilité." },
+        { "title": "Virtualisation", "desc": "Déploiement VMware, Hyper-V et solutions de virtualisation avancées." },
+        { "title": "Stockage SAN/NAS", "desc": "Solutions de stockage haute performance pour vos données critiques." },
+        { "title": "Infrastructure Convergée", "desc": "Déploiement de solutions hyper-convergées (HCI) pour simplifier votre IT." }
+      ]
+    },
+    "formation": {
+      "title": "Formation Datacenter",
+      "items": [
+        { "title": "VMware vSphere", "desc": "Certification VCP et maîtrise de la virtualisation VMware." },
+        { "title": "Administration Linux/Windows Server", "desc": "Gestion et administration des systèmes serveur." },
+        { "title": "Cloud AWS/Azure/GCP", "desc": "Certifications cloud pour architectes et administrateurs." },
+        { "title": "Sécurité des Infrastructures", "desc": "Protection des environnements datacenter contre les cybermenaces." }
+      ]
+    }
+  },
+  "mobile": {
+    "hero": {
+      "badge": "Applications Mobiles",
+      "title": "Créez des Applications",
+      "titleHighlight": "qui Font la Différence",
+      "subtitle": "Développement d'applications mobiles innovantes, performantes et centrées sur l'expérience utilisateur pour iOS et Android."
+    },
+    "conseil": {
+      "title": "Conseil Applications Mobiles",
+      "items": [
+        { "title": "Audit Mobile", "desc": "Analyse de vos besoins et définition de la stratégie mobile adaptée." },
+        { "title": "UX/UI Strategy", "desc": "Conception d'expériences utilisateur engageantes et intuitives." },
+        { "title": "Choix Technologique", "desc": "Conseil sur le choix entre native, cross-platform et PWA selon vos objectifs." },
+        { "title": "Monétisation & Marketing", "desc": "Stratégies de mise sur le marché et de monétisation de votre application." }
+      ]
+    },
+    "ingenierie": {
+      "title": "Développement Mobile",
+      "items": [
+        { "title": "iOS Native (Swift)", "desc": "Développement natif iOS avec Swift pour des performances optimales." },
+        { "title": "Android Native (Kotlin)", "desc": "Applications Android natives performantes développées en Kotlin." },
+        { "title": "React Native & Flutter", "desc": "Développement cross-platform pour maximiser votre retour sur investissement." },
+        { "title": "Backend & API", "desc": "Conception et développement des backends et APIs pour vos applications." }
+      ]
+    },
+    "formation": {
+      "title": "Formation Développement Mobile",
+      "items": [
+        { "title": "Développement iOS/Swift", "desc": "Formation complète au développement iOS avec les dernières technologies Apple." },
+        { "title": "Développement Android/Kotlin", "desc": "Maîtrise du développement Android avec Kotlin et Jetpack Compose." },
+        { "title": "React Native", "desc": "Développement d'applications cross-platform avec React Native." },
+        { "title": "Flutter & Dart", "desc": "Création d'applications mobiles avec le framework Flutter de Google." }
+      ]
+    }
+  },
+  "ai": {
+    "hero": {
+      "badge": "Agent IA",
+      "title": "L'Intelligence Artificielle",
+      "titleHighlight": "au Service de votre Business",
+      "subtitle": "Intégration d'agents IA intelligents pour automatiser vos processus, augmenter la productivité et créer de nouvelles opportunités de valeur."
+    },
+    "conseil": {
+      "title": "Conseil IA & Automatisation",
+      "items": [
+        { "title": "Audit IA", "desc": "Identification des opportunités d'automatisation et d'IA dans vos processus métier." },
+        { "title": "Stratégie IA", "desc": "Définition d'une roadmap IA alignée sur vos objectifs stratégiques." },
+        { "title": "Éthique & Gouvernance IA", "desc": "Mise en place de cadres de gouvernance responsable pour vos systèmes IA." },
+        { "title": "ROI & Business Case", "desc": "Modélisation du retour sur investissement de vos projets IA." }
+      ]
+    },
+    "ingenierie": {
+      "title": "Développement Agents IA",
+      "items": [
+        { "title": "Agents Conversationnels", "desc": "Développement de chatbots et assistants virtuels intelligents (RAG, LLM)." },
+        { "title": "Automatisation RPA", "desc": "Robots logiciels pour automatiser les tâches répétitives et à forte valeur ajoutée." },
+        { "title": "Computer Vision", "desc": "Solutions de vision par ordinateur pour l'inspection et la reconnaissance d'images." },
+        { "title": "Analyse Prédictive", "desc": "Modèles de machine learning pour l'aide à la décision et la prévision." }
+      ]
+    },
+    "formation": {
+      "title": "Formation Intelligence Artificielle",
+      "items": [
+        { "title": "IA pour Managers", "desc": "Comprendre les enjeux de l'IA pour piloter les projets IA en entreprise." },
+        { "title": "Machine Learning & Data Science", "desc": "Formation Python, scikit-learn, TensorFlow pour data scientists." },
+        { "title": "Prompt Engineering", "desc": "Maîtrise des LLMs et techniques d'ingénierie de prompts pour les équipes." },
+        { "title": "Déploiement MLOps", "desc": "Mise en production et monitoring de modèles IA en environnement de production." }
+      ]
+    }
+  },
+  "blog": {
+    "title": "Blog & Actualités",
+    "subtitle": "Tendances technologiques, actualités nationales et internationales dans nos domaines d'expertise",
+    "categories": {
+      "all": "Toutes",
+      "digital": "Transformation Digitale",
+      "telecom": "Télécoms",
+      "datacenter": "Datacenter",
+      "mobile": "Mobile",
+      "ai": "Intelligence Artificielle",
+      "national": "Maroc Digital",
+      "international": "International"
+    },
+    "readMore": "Lire la suite",
+    "loading": "Chargement des articles...",
+    "noArticles": "Aucun article disponible",
+    "publishedAt": "Publié le",
+    "source": "Source"
+  },
+  "about": {
+    "hero": {
+      "badge": "À Propos",
+      "title": "Smart Cube Services,",
+      "titleHighlight": "votre partenaire technologique",
+      "subtitle": "Fondée par des experts passionnés de technologie, Smart Cube Services est une société de conseil et d'ingénierie spécialisée dans les solutions numériques innovantes pour les entreprises."
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "desc": "Accompagner les organisations dans leur transformation digitale en fournissant des solutions technologiques à haute valeur ajoutée, combinant expertise technique et vision stratégique."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "desc": "Être le partenaire technologique de référence en Afrique et au Moyen-Orient, reconnu pour notre excellence opérationnelle et notre capacité à innover."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "items": [
+        { "title": "Excellence", "desc": "Nous visons l'excellence dans chaque projet, chaque livrable, chaque interaction." },
+        { "title": "Innovation", "desc": "Nous cultivons une culture d'innovation continue pour anticiper les besoins de demain." },
+        { "title": "Intégrité", "desc": "La confiance est le fondement de toutes nos relations avec nos clients et partenaires." },
+        { "title": "Agilité", "desc": "Nous nous adaptons rapidement aux évolutions technologiques et aux besoins de nos clients." }
+      ]
+    },
+    "team": {
+      "title": "Notre Équipe",
+      "subtitle": "Des experts certifiés et passionnés à votre service"
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Contact",
+      "title": "Parlons de votre",
+      "titleHighlight": "Projet",
+      "subtitle": "Notre équipe d'experts est disponible pour répondre à vos questions et vous proposer des solutions adaptées à vos besoins."
+    },
+    "form": {
+      "name": "Nom complet",
+      "email": "Adresse email",
+      "phone": "Téléphone",
+      "company": "Entreprise",
+      "service": "Service concerné",
+      "message": "Votre message",
+      "submit": "Envoyer le message",
+      "success": "Message envoyé avec succès ! Nous vous répondrons dans les 24h.",
+      "selectService": "Sélectionner un service"
+    },
+    "info": {
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "Email",
+      "hours": "Horaires"
+    }
+  },
+  "footer": {
+    "desc": "Expert en transformation digitale, télécommunications, datacenter, applications mobiles et intelligence artificielle.",
+    "services": "Services",
+    "company": "Entreprise",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "rights": "Tous droits réservés"
+  }
+}
