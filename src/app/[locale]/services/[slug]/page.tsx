@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 import SectionBadge from "@/components/SectionBadge";
-import { ArrowLeft, ArrowRight, BookOpen, Wrench, Users } from "lucide-react";
+import { ArrowLeft, ArrowRight, BookOpen, Wrench, Users, Award } from "lucide-react";
 
 type ServiceConfig = {
   key: string; icon: string; color: string;
@@ -114,6 +114,29 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
           })}
         </div>
       </section>
+
+      {/* Partners – Telecom only */}
+      {config.key === "telecom" && (
+        <section className="py-16 bg-[#0D0D0D]">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <SectionBadge text={t("partners.title")} color={config.color} />
+              <p className="text-slate-400 mt-4 max-w-2xl mx-auto">{t("partners.subtitle")}</p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              {[0, 1, 2].map((i) => (
+                <div key={i} className="bg-[#1C1C1C] border border-white/8 rounded-2xl p-6 hover:border-[#9B9EA3]/40 transition-all group">
+                  <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4" style={{ background: `${config.color}18` }}>
+                    <Award size={24} style={{ color: config.color }} />
+                  </div>
+                  <h4 className="text-white font-bold text-lg mb-2">{t(`partners.items.${i}.name`)}</h4>
+                  <p className="text-slate-400 text-sm leading-relaxed">{t(`partners.items.${i}.desc`)}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* CTA */}
       <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

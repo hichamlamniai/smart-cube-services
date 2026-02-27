@@ -136,36 +136,45 @@
   },
   "telecom": {
     "hero": {
-      "badge": "Télécommunications",
-      "title": "Infrastructures Réseau",
-      "titleHighlight": "Haute Performance",
-      "subtitle": "Conception et déploiement d'infrastructures télécoms et réseaux privés pour une connectivité fiable et sécurisée."
+      "badge": "Télécommunications & Réseaux",
+      "title": "Infrastructures Fibre Optique",
+      "titleHighlight": "& Réseaux Privés",
+      "subtitle": "Conception et déploiement FTTH, FTTO, LAN/WiFi et réseaux cœur 4G/5G. Supervision complète avec SolarWinds, Inteliphys Suites et C-net pour une connectivité performante et sécurisée."
     },
     "conseil": {
-      "title": "Conseil Télécommunications",
+      "title": "Conseil Télécommunications & Réseaux",
       "items": [
-        { "title": "Audit Réseau", "desc": "Analyse complète de vos infrastructures réseau et identification des points d'amélioration." },
-        { "title": "Stratégie Télécoms", "desc": "Définition d'une stratégie télécom adaptée à vos besoins et votre budget." },
-        { "title": "Réseaux Privés (MPLS/SD-WAN)", "desc": "Conseil sur le choix et l'implémentation de réseaux privés d'entreprise." },
-        { "title": "5G & IoT", "desc": "Accompagnement dans l'adoption des technologies 5G et Internet des Objets." }
+        { "title": "Audit Réseau FTTH & FTTO", "desc": "Évaluation de vos besoins en déploiement fibre optique résidentiel (FTTH) et professionnel (FTTO) avec recommandations d'architecture et dimensionnement." },
+        { "title": "Audit Performance Core Network 4G/5G", "desc": "Analyse approfondie des performances de votre réseau cœur 4G/5G : latence, capacité, couverture et identification des axes d'optimisation." },
+        { "title": "Conseil Certification Fibre Optique", "desc": "Accompagnement dans les processus de certification et qualification des réseaux fibre optique selon les standards ANSI/TIA, ISO/IEC et ITU-T." },
+        { "title": "Stratégie NMS & IMS", "desc": "Conseil sur le choix et la mise en place de solutions de Network Management System et d'Infrastructure Management System adaptées à votre environnement." }
       ]
     },
     "ingenierie": {
-      "title": "Ingénierie Réseau",
+      "title": "Ingénierie & Déploiement Réseaux",
       "items": [
-        { "title": "Déploiement Fibre Optique", "desc": "Conception et déploiement d'infrastructures fibre optique haute capacité." },
-        { "title": "SD-WAN", "desc": "Architecture et déploiement de réseaux WAN définis par logiciel." },
-        { "title": "Sécurité Réseau", "desc": "Firewalls, IDS/IPS, VPN et solutions de sécurité périmétrique." },
-        { "title": "Réseaux Sans Fil", "desc": "Déploiement WiFi entreprise et réseaux privés LTE/5G." }
+        { "title": "Design & Ingénierie FTTH / FTTO", "desc": "Conception et déploiement complet d'infrastructures fibre optique FTTH (résidentiel) et FTTO (entreprises), de l'étude terrain à la mise en service." },
+        { "title": "Design & Déploiement LAN & WiFi", "desc": "Architecture et déploiement de réseaux LAN câblés et WiFi d'entreprise haute performance, sécurisés et évolutifs selon les standards IEEE 802.11." },
+        { "title": "Core Network Design & Ingénierie 4G/5G", "desc": "Conception et ingénierie des réseaux cœur 4G LTE et 5G NR : architecture, dimensionnement, intégration et optimisation des équipements." },
+        { "title": "Déploiement Solutions NMS & IMS", "desc": "Déploiement et intégration de SolarWinds, Inteliphys Suites et C-net pour la supervision et la gestion complète de vos infrastructures réseau." }
       ]
     },
     "formation": {
       "title": "Formation Réseau & Télécoms",
       "items": [
-        { "title": "Cisco CCNA/CCNP", "desc": "Préparation aux certifications Cisco pour techniciens et ingénieurs réseau." },
-        { "title": "Juniper Networks", "desc": "Formation aux équipements et solutions Juniper Networks." },
-        { "title": "Gestion des Réseaux", "desc": "Administration et supervision des infrastructures réseau." },
-        { "title": "Sécurité Réseau Avancée", "desc": "Techniques avancées de sécurisation des infrastructures réseau." }
+        { "title": "Formation FTTH & FTTO", "desc": "Formations techniques sur la conception, le déploiement et la maintenance des réseaux fibre optique résidentiels (FTTH) et professionnels (FTTO)." },
+        { "title": "Formation Réseaux LAN & WiFi", "desc": "Montée en compétences sur la conception, le déploiement et l'administration des réseaux LAN câblés et WiFi d'entreprise." },
+        { "title": "Formation Core Network 4G/5G", "desc": "Formation approfondie sur les architectures des réseaux cœur 4G LTE et 5G NR : protocoles EPC/5GC, dimensionnement et optimisation." },
+        { "title": "Formation NMS/IMS SolarWinds & Inteliphys", "desc": "Maîtrise des outils de supervision SolarWinds, Inteliphys Suites et C-net pour une gestion proactive et efficace de vos infrastructures réseau." }
+      ]
+    },
+    "partners": {
+      "title": "Partenaires Technologiques",
+      "subtitle": "Nous collaborons avec les leaders mondiaux des solutions réseau pour vous offrir les meilleures technologies du marché",
+      "items": [
+        { "name": "SolarWinds", "desc": "Leader mondial en solutions de supervision et gestion de réseaux (NMS). Monitoring temps réel, alertes proactives, tableaux de bord avancés et reporting automatisé." },
+        { "name": "Inteliphys Suites", "desc": "Suite complète de gestion d'infrastructures (IMS) : inventaire, documentation, supervision et gestion du cycle de vie de vos actifs réseau fibre et cuivre." },
+        { "name": "C-net", "desc": "Solutions innovantes pour la gestion, la documentation et l'optimisation des réseaux télécoms offrant une visibilité totale sur l'ensemble de votre infrastructure." }
       ]
     }
   },

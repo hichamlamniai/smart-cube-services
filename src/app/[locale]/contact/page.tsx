@@ -118,10 +118,10 @@ export default function ContactPage() {
             {/* Info */}
             <div className="lg:col-span-2 space-y-6">
               {[
-                { icon: MapPin, label: t("info.address"), value: "Casablanca, Maroc",                                    color: "#F47920" },
-                { icon: Phone,  label: t("info.phone"),   value: "+212 5XX XX XX XX",                                   color: "#FF9A4A" },
-                { icon: Mail,   label: t("info.email"),   value: "contact@smartcube.ma",                                color: "#C45D0A" },
-                { icon: Clock,  label: t("info.hours"),   value: locale === "fr" ? "Lun–Ven : 8h–18h" : "Mon–Fri: 8am–6pm", color: "#9B9EA3" },
+                { icon: MapPin, label: t("info.address"), value: "Florida Center Park, Sidi Maarouf, Casablanca", color: "#F47920" },
+                { icon: Phone,  label: t("info.phone"),   value: "+212 5 20 07 56 77",                               color: "#FF9A4A" },
+                { icon: Mail,   label: t("info.email"),   value: "cubesmartservices@gmail.com",                      color: "#C45D0A" },
+                { icon: Clock,  label: t("info.hours"),   value: locale === "fr" ? "Lun–Dim : 9h–17h" : "Mon–Sun: 9am–5pm", color: "#9B9EA3" },
               ].map((item, i) => {
                 const Icon = item.icon;
                 return (
@@ -139,7 +139,8 @@ export default function ContactPage() {
               <div className="bg-[#1C1C1C] border border-white/8 rounded-2xl overflow-hidden h-48 flex items-center justify-center">
                 <div className="text-center text-slate-400">
                   <MapPin size={32} className="mx-auto mb-2 text-[#F47920]" />
-                  <p className="text-sm">Casablanca, Maroc</p>
+                  <p className="text-sm font-medium text-white">Florida Center Park</p>
+                  <p className="text-xs mt-1">Sidi Maarouf, Casablanca, MA</p>
                 </div>
               </div>
             </div>

@@ -58,9 +58,9 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-5 text-sm uppercase tracking-wider">Contact</h3>
             <ul className="space-y-4">
-              <li className="flex items-start gap-3"><MapPin size={16} className="text-[#F47920] mt-0.5 flex-shrink-0" /><span className="text-slate-400 text-sm">Casablanca, Maroc</span></li>
-              <li className="flex items-center gap-3"><Phone size={16} className="text-[#F47920] flex-shrink-0" /><a href="tel:+212" className="text-slate-400 hover:text-white transition-colors text-sm">+212 5XX XX XX XX</a></li>
-              <li className="flex items-center gap-3"><Mail size={16} className="text-[#F47920] flex-shrink-0" /><a href="mailto:contact@smartcube.ma" className="text-slate-400 hover:text-white transition-colors text-sm">contact@smartcube.ma</a></li>
+              <li className="flex items-start gap-3"><MapPin size={16} className="text-[#F47920] mt-0.5 flex-shrink-0" /><span className="text-slate-400 text-sm">Florida Center Park, Sidi Maarouf, Casablanca</span></li>
+              <li className="flex items-center gap-3"><Phone size={16} className="text-[#F47920] flex-shrink-0" /><a href="tel:+212520075677" className="text-slate-400 hover:text-white transition-colors text-sm">+212 5 20 07 56 77</a></li>
+              <li className="flex items-center gap-3"><Mail size={16} className="text-[#F47920] flex-shrink-0" /><a href="mailto:cubesmartservices@gmail.com" className="text-slate-400 hover:text-white transition-colors text-sm">cubesmartservices@gmail.com</a></li>
             </ul>
           </div>
         </div>

@@ -136,36 +136,45 @@
   },
   "telecom": {
     "hero": {
-      "badge": "Telecommunications",
-      "title": "High Performance",
-      "titleHighlight": "Network Infrastructure",
-      "subtitle": "Design and deployment of telecom and private network infrastructure for reliable and secure connectivity."
+      "badge": "Telecommunications & Networks",
+      "title": "Fiber Optic Infrastructure",
+      "titleHighlight": "& Private Networks",
+      "subtitle": "FTTH, FTTO, LAN/WiFi and 4G/5G core network design and deployment. Complete monitoring with SolarWinds, Inteliphys Suites and C-net for reliable and secure connectivity."
     },
     "conseil": {
-      "title": "Telecommunications Consulting",
+      "title": "Telecommunications & Network Consulting",
       "items": [
-        { "title": "Network Audit", "desc": "Complete analysis of your network infrastructure and improvement recommendations." },
-        { "title": "Telecom Strategy", "desc": "Definition of a telecom strategy adapted to your needs and budget." },
-        { "title": "Private Networks (MPLS/SD-WAN)", "desc": "Advice on the choice and implementation of enterprise private networks." },
-        { "title": "5G & IoT", "desc": "Support for adopting 5G and Internet of Things technologies." }
+        { "title": "FTTH & FTTO Network Audit", "desc": "Assessment of your fiber optic deployment needs for residential (FTTH) and professional (FTTO) environments with architecture recommendations and dimensioning." },
+        { "title": "4G/5G Core Network Performance Audit", "desc": "In-depth analysis of your 4G/5G core network performance: latency, capacity, coverage and identification of optimization opportunities." },
+        { "title": "Fiber Optic Certification Consulting", "desc": "Support in the certification and qualification processes for fiber optic networks according to ANSI/TIA, ISO/IEC and ITU-T international standards." },
+        { "title": "NMS & IMS Strategy", "desc": "Advisory on the selection and deployment of Network Management System and Infrastructure Management System solutions adapted to your environment." }
       ]
     },
     "ingenierie": {
-      "title": "Network Engineering",
+      "title": "Network Engineering & Deployment",
       "items": [
-        { "title": "Fiber Optic Deployment", "desc": "Design and deployment of high-capacity fiber optic infrastructure." },
-        { "title": "SD-WAN", "desc": "Architecture and deployment of software-defined WAN networks." },
-        { "title": "Network Security", "desc": "Firewalls, IDS/IPS, VPN and perimeter security solutions." },
-        { "title": "Wireless Networks", "desc": "Enterprise WiFi deployment and private LTE/5G networks." }
+        { "title": "FTTH / FTTO Design & Engineering", "desc": "Complete design and deployment of FTTH (residential) and FTTO (enterprise) fiber optic infrastructure, from site survey to commissioning." },
+        { "title": "LAN & WiFi Network Design & Deployment", "desc": "Architecture and deployment of high-performance, secure and scalable enterprise wired LAN and WiFi networks per IEEE 802.11 standards." },
+        { "title": "4G/5G Core Network Design & Engineering", "desc": "Design and engineering of 4G LTE and 5G NR core networks: architecture, dimensioning, integration and equipment optimization." },
+        { "title": "NMS & IMS Solutions Deployment", "desc": "Deployment and integration of SolarWinds, Inteliphys Suites and C-net for comprehensive supervision and management of your network infrastructure." }
       ]
     },
     "formation": {
       "title": "Network & Telecom Training",
       "items": [
-        { "title": "Cisco CCNA/CCNP", "desc": "Cisco certification preparation for network technicians and engineers." },
-        { "title": "Juniper Networks", "desc": "Training on Juniper Networks equipment and solutions." },
-        { "title": "Network Management", "desc": "Administration and monitoring of network infrastructure." },
-        { "title": "Advanced Network Security", "desc": "Advanced techniques for securing network infrastructure." }
+        { "title": "FTTH & FTTO Training", "desc": "Technical training on the design, deployment and maintenance of residential (FTTH) and professional (FTTO) fiber optic networks." },
+        { "title": "LAN & WiFi Networks Training", "desc": "Skills development in enterprise wired LAN and WiFi network design, deployment and administration." },
+        { "title": "4G/5G Core Network Training", "desc": "In-depth training on 4G LTE and 5G NR core network architectures: EPC/5GC protocols, dimensioning and optimization." },
+        { "title": "SolarWinds & Inteliphys NMS/IMS Training", "desc": "Mastering SolarWinds, Inteliphys Suites and C-net monitoring tools for proactive and efficient management of your network infrastructure." }
+      ]
+    },
+    "partners": {
+      "title": "Technology Partners",
+      "subtitle": "We collaborate with global leaders in network solutions to offer you the best technologies on the market",
+      "items": [
+        { "name": "SolarWinds", "desc": "Global leader in network monitoring and management solutions (NMS). Real-time monitoring, proactive alerts, advanced dashboards and automated reporting." },
+        { "name": "Inteliphys Suites", "desc": "Complete infrastructure management suite (IMS): inventory, documentation, monitoring and lifecycle management of your fiber and copper network assets." },
+        { "name": "C-net", "desc": "Innovative solutions for telecom network management, documentation and optimization, offering total visibility across your entire infrastructure." }
       ]
     }
   },
