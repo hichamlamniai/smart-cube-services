@@ -6,15 +6,17 @@ import { ArrowLeft, ArrowRight, BookOpen, Wrench, Users, Award } from "lucide-re
 
 type ServiceConfig = {
   key: string; icon: string; color: string;
-  slugsFr: string[]; slugsEn: string[]; namespace: string;
+  slug: string; namespace: string;
 };
 
+// slug must match the canonical key in src/i18n/routing.ts pathnames
+// (next-intl middleware rewrites localized URLs to the canonical path before the page sees them)
 const serviceConfigs: ServiceConfig[] = [
-  { key: "digital",    icon: "🔄", color: "#F47920", slugsFr: ["transformation-digitale"], slugsEn: ["digital-transformation"],   namespace: "digital"     },
-  { key: "telecom",    icon: "📡", color: "#9B9EA3", slugsFr: ["telecom-reseaux-prives"],   slugsEn: ["telecom-private-networks"], namespace: "telecom"     },
-  { key: "datacenter", icon: "🖥️", color: "#8B5E3C", slugsFr: ["datacenter"],               slugsEn: ["datacenter"],               namespace: "datacenter"  },
-  { key: "mobile",     icon: "📱", color: "#FF9A4A", slugsFr: ["applications-mobiles"],     slugsEn: ["mobile-applications"],      namespace: "mobile"      },
-  { key: "ai",         icon: "🤖", color: "#C45D0A", slugsFr: ["agent-ia"],                 slugsEn: ["ai-agents"],                namespace: "ai"          },
+  { key: "digital",    icon: "🔄", color: "#F47920", slug: "transformation-digitale", namespace: "digital"     },
+  { key: "telecom",    icon: "📡", color: "#9B9EA3", slug: "telecom",                 namespace: "telecom"     },
+  { key: "datacenter", icon: "🖥️", color: "#8B5E3C", slug: "datacenter",              namespace: "datacenter"  },
+  { key: "mobile",     icon: "📱", color: "#FF9A4A", slug: "applications-mobiles",    namespace: "mobile"      },
+  { key: "ai",         icon: "🤖", color: "#C45D0A", slug: "agent-ia",                namespace: "ai"          },
 ];
 
 const pillars = [
@@ -24,18 +26,12 @@ const pillars = [
 ];
 
 export async function generateStaticParams() {
-  const params: { slug: string }[] = [];
-  serviceConfigs.forEach((svc) => {
-    [...svc.slugsFr, ...svc.slugsEn].forEach((slug) => params.push({ slug }));
-  });
-  return params;
+  return serviceConfigs.map((svc) => ({ slug: svc.slug }));
 }
 
 export default async function ServiceDetailPage({ params }: { params: Promise<{ slug: string; locale: string }> }) {
   const { slug, locale } = await params;
-  const config = serviceConfigs.find((s) =>
-    locale === "fr" ? s.slugsFr.includes(slug) : s.slugsEn.includes(slug)
-  );
+  const config = serviceConfigs.find((s) => s.slug === slug);
   if (!config) notFound();
 
   const t  = await getTranslations(config.namespace);
