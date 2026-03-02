@@ -12,13 +12,28 @@ export default function ContactPage() {
   const locale = useLocale();
   const [submitted, setSubmitted] = useState(false);
   const [loading,   setLoading]   = useState(false);
+  const [error,     setError]     = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: { preventDefault(): void; currentTarget: HTMLFormElement }) => {
     e.preventDefault();
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 1500));
+    setError(false);
+    const fd = new FormData(e.currentTarget);
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name:    fd.get("name"),
+        email:   fd.get("email"),
+        phone:   fd.get("phone"),
+        company: fd.get("company"),
+        service: fd.get("service"),
+        message: fd.get("message"),
+      }),
+    });
     setLoading(false);
-    setSubmitted(true);
+    if (res.ok) setSubmitted(true);
+    else        setError(true);
   };
 
   return (
@@ -61,13 +76,13 @@ export default function ContactPage() {
                     <div className="grid sm:grid-cols-2 gap-6">
                       <div>
                         <label className="block text-slate-300 text-sm font-medium mb-2">{t("form.name")} *</label>
-                        <input required type="text"
+                        <input required type="text" name="name"
                           className="w-full bg-[#111111] border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-[#F47920]/60 transition-colors"
                           placeholder="John Doe" />
                       </div>
                       <div>
                         <label className="block text-slate-300 text-sm font-medium mb-2">{t("form.email")} *</label>
-                        <input required type="email"
+                        <input required type="email" name="email"
                           className="w-full bg-[#111111] border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-[#F47920]/60 transition-colors"
                           placeholder="john@company.com" />
                       </div>
@@ -75,20 +90,20 @@ export default function ContactPage() {
                     <div className="grid sm:grid-cols-2 gap-6">
                       <div>
                         <label className="block text-slate-300 text-sm font-medium mb-2">{t("form.phone")}</label>
-                        <input type="tel"
+                        <input type="tel" name="phone"
                           className="w-full bg-[#111111] border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-[#F47920]/60 transition-colors"
                           placeholder="+212 6XX XXX XXX" />
                       </div>
                       <div>
                         <label className="block text-slate-300 text-sm font-medium mb-2">{t("form.company")}</label>
-                        <input type="text"
+                        <input type="text" name="company"
                           className="w-full bg-[#111111] border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-[#F47920]/60 transition-colors"
                           placeholder="Company SA" />
                       </div>
                     </div>
                     <div>
                       <label className="block text-slate-300 text-sm font-medium mb-2">{t("form.service")}</label>
-                      <select className="w-full bg-[#111111] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-[#F47920]/60 transition-colors appearance-none">
+                      <select name="service" className="w-full bg-[#111111] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-[#F47920]/60 transition-colors appearance-none">
                         <option value="" className="bg-[#1C1C1C]">{t("form.selectService")}</option>
                         {services.map((svc) => (
                           <option key={svc} value={svc} className="bg-[#1C1C1C]">{ts(`${svc}.name`)}</option>
@@ -97,7 +112,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <label className="block text-slate-300 text-sm font-medium mb-2">{t("form.message")} *</label>
-                      <textarea required rows={5}
+                      <textarea required rows={5} name="message"
                         className="w-full bg-[#111111] border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-[#F47920]/60 transition-colors resize-none"
                         placeholder={locale === "fr" ? "Décrivez votre projet ou votre besoin..." : "Describe your project or need..."} />
                     </div>
@@ -110,6 +125,13 @@ export default function ContactPage() {
                         <><Send size={20} /> {t("form.submit")}</>
                       )}
                     </button>
+                    {error && (
+                      <p className="text-red-400 text-sm text-center mt-3">
+                        {locale === "fr"
+                          ? "Une erreur s'est produite. Veuillez réessayer ou nous écrire directement."
+                          : "An error occurred. Please try again or contact us directly."}
+                      </p>
+                    )}
                   </form>
                 )}
               </div>

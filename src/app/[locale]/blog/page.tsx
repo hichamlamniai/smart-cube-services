@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import SectionBadge from "@/components/SectionBadge";
 import BlogCard from "@/components/BlogCard";
 import { fetchAllArticles } from "@/lib/newsapi";
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pageMeta.blog" });
+  return { title: t("title"), description: t("description") };
+}
 
 const categories = ["all","digital","telecom","datacenter","mobile","ai","national","international"];
 

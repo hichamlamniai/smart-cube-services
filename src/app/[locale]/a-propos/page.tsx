@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import SectionBadge from "@/components/SectionBadge";
 import { Target, Eye, Award, Zap, Heart, Shield } from "lucide-react";
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pageMeta.about" });
+  return { title: t("title"), description: t("description") };
+}
 
 const valueIcons = [Award, Zap, Heart, Shield];
 const valueColors = ["#F47920","#FF9A4A","#C45D0A","#8B5E3C"];

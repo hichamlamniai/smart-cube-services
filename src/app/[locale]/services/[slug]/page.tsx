@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import Link from "next/link";
@@ -27,6 +28,17 @@ const pillars = [
 
 export async function generateStaticParams() {
   return serviceConfigs.map((svc) => ({ slug: svc.slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string; locale: string }> }): Promise<Metadata> {
+  const { slug, locale } = await params;
+  const config = serviceConfigs.find((s) => s.slug === slug);
+  if (!config) return {};
+  const t = await getTranslations({ locale, namespace: config.namespace });
+  return {
+    title: `${t("hero.title")} ${t("hero.titleHighlight")} – Smart Cube Services`,
+    description: t("hero.subtitle"),
+  };
 }
 
 export default async function ServiceDetailPage({ params }: { params: Promise<{ slug: string; locale: string }> }) {

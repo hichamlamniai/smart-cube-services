@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 import SectionBadge from "@/components/SectionBadge";
 import { ArrowRight } from "lucide-react";
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pageMeta.services" });
+  return { title: t("title"), description: t("description") };
+}
 
 const serviceDetails = [
   { key: "digital",    icon: "🔄", color: "#F47920", frHref: "/services/transformation-digitale",  enHref: "/services/digital-transformation"  },

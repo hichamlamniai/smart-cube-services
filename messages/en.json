@@ -3,6 +3,13 @@
     "title": "Smart Cube Services – Digital Transformation & Technology",
     "description": "Expert in digital transformation, telecommunications, datacenter, mobile applications and AI agents in Morocco and internationally."
   },
+  "pageMeta": {
+    "home":       { "title": "Smart Cube Services – Technology Innovation Expert in Morocco", "description": "Supporting companies in their digital transformation: telecommunications, datacenter, mobile applications and artificial intelligence." },
+    "services":   { "title": "Our Services – Smart Cube Services", "description": "Explore our full range of services: digital transformation, telecom & networks, datacenter, mobile applications and AI agents." },
+    "blog":       { "title": "Blog & Tech News – Smart Cube Services", "description": "Stay informed on the latest news in digital transformation, telecommunications and artificial intelligence in Morocco." },
+    "about":      { "title": "About Us – Smart Cube Services", "description": "Discover Smart Cube Services: our mission, values and the expert team supporting your digital transformation." },
+    "contact":    { "title": "Contact Us – Smart Cube Services", "description": "Contact our team for a personalized quote. Florida Center Park, Sidi Maarouf, Casablanca. Tel: +212 5 20 07 56 77." }
+  },
   "nav": {
     "home": "Home",
     "services": "Services",

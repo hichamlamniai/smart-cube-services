@@ -3,6 +3,13 @@
     "title": "Smart Cube Services – Transformation Digitale & Technologies",
     "description": "Expert en transformation digitale, télécommunications, datacenter, applications mobiles et agents IA au Maroc et à l'international."
   },
+  "pageMeta": {
+    "home":       { "title": "Smart Cube Services – Expert en Innovation Technologique au Maroc", "description": "Accompagnement des entreprises dans leur transformation numérique : télécommunications, datacenter, applications mobiles et intelligence artificielle." },
+    "services":   { "title": "Nos Services – Smart Cube Services", "description": "Découvrez l'ensemble de nos services : transformation digitale, télécom & réseaux, datacenter, applications mobiles et agents IA." },
+    "blog":       { "title": "Blog & Actualités Tech – Smart Cube Services", "description": "Restez informé des dernières actualités en transformation digitale, télécommunications et intelligence artificielle au Maroc." },
+    "about":      { "title": "À Propos – Smart Cube Services", "description": "Découvrez Smart Cube Services : notre mission, nos valeurs et l'équipe d'experts qui accompagne votre transformation numérique." },
+    "contact":    { "title": "Nous Contacter – Smart Cube Services", "description": "Contactez notre équipe pour un devis personnalisé. Florida Center Park, Sidi Maarouf, Casablanca. Tél : +212 5 20 07 56 77." }
+  },
   "nav": {
     "home": "Accueil",
     "services": "Services",
