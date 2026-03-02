@@ -8,7 +8,7 @@ import LogoCube from "./LogoCube";
 
 const services = [
   { key: "digital",     frHref: "/services/transformation-digitale",  enHref: "/services/digital-transformation",   icon: "🔄", color: "#F47920" },
-  { key: "telecom",     frHref: "/services/telecom-reseaux-prives",    enHref: "/services/telecom-private-networks",  icon: "📡", color: "#9B9EA3" },
+  { key: "telecom",     frHref: "/services/telecom-reseaux-prives",    enHref: "/services/telecom-private-networks",  icon: "📡", color: "#F47920" },
   { key: "datacenter",  frHref: "/services/datacenter",                enHref: "/services/datacenter",                icon: "🖥️", color: "#8B5E3C" },
   { key: "mobile",      frHref: "/services/applications-mobiles",      enHref: "/services/mobile-applications",       icon: "📱", color: "#FF9A4A" },
   { key: "ai",          frHref: "/services/agent-ia",                  enHref: "/services/ai-agents",                 icon: "🤖", color: "#C45D0A" },

@@ -13,7 +13,7 @@ type ServiceConfig = {
 // (next-intl middleware rewrites localized URLs to the canonical path before the page sees them)
 const serviceConfigs: ServiceConfig[] = [
   { key: "digital",    icon: "🔄", color: "#F47920", slug: "transformation-digitale", namespace: "digital"     },
-  { key: "telecom",    icon: "📡", color: "#9B9EA3", slug: "telecom",                 namespace: "telecom"     },
+  { key: "telecom",    icon: "📡", color: "#F47920", slug: "telecom",                 namespace: "telecom"     },
   { key: "datacenter", icon: "🖥️", color: "#8B5E3C", slug: "datacenter",              namespace: "datacenter"  },
   { key: "mobile",     icon: "📱", color: "#FF9A4A", slug: "applications-mobiles",    namespace: "mobile"      },
   { key: "ai",         icon: "🤖", color: "#C45D0A", slug: "agent-ia",                namespace: "ai"          },
@@ -121,7 +121,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               {[0, 1, 2].map((i) => (
-                <div key={i} className="bg-[#1C1C1C] border border-white/8 rounded-2xl p-6 hover:border-[#9B9EA3]/40 transition-all group">
+                <div key={i} className="bg-[#1C1C1C] border border-white/8 hover:border-[#F47920]/40 rounded-2xl p-6 transition-all group">
                   <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4" style={{ background: `${config.color}18` }}>
                     <Award size={24} style={{ color: config.color }} />
                   </div>

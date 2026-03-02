@@ -8,12 +8,12 @@ const categories = ["all","digital","telecom","datacenter","mobile","ai","nation
 const categoryColors: Record<string, string> = {
   all:           "#F47920",
   digital:       "#FF9A4A",
-  telecom:       "#9B9EA3",
+  telecom:       "#F47920",
   datacenter:    "#8B5E3C",
   mobile:        "#C45D0A",
   ai:            "#F47920",
   national:      "#EF4444",
-  international: "#6D6E71",
+  international: "#FF9A4A",
 };
 
 export default async function BlogPage({ searchParams }: { searchParams: Promise<{ category?: string }> }) {

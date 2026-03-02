@@ -121,7 +121,7 @@ export default function ContactPage() {
                 { icon: MapPin, label: t("info.address"), value: "Florida Center Park, Sidi Maarouf, Casablanca", color: "#F47920" },
                 { icon: Phone,  label: t("info.phone"),   value: "+212 5 20 07 56 77",                               color: "#FF9A4A" },
                 { icon: Mail,   label: t("info.email"),   value: "cubesmartservices@gmail.com",                      color: "#C45D0A" },
-                { icon: Clock,  label: t("info.hours"),   value: locale === "fr" ? "Lun–Dim : 9h–17h" : "Mon–Sun: 9am–5pm", color: "#9B9EA3" },
+                { icon: Clock,  label: t("info.hours"),   value: locale === "fr" ? "Lun–Dim : 9h–17h" : "Mon–Sun: 9am–5pm", color: "#F47920" },
               ].map((item, i) => {
                 const Icon = item.icon;
                 return (

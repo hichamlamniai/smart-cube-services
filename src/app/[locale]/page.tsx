@@ -6,7 +6,7 @@ import { ArrowRight, CheckCircle, Zap, Shield, TrendingUp } from "lucide-react";
 
 const services = [
   { key: "digital",    icon: "🔄", color: "#F47920", frHref: "/services/transformation-digitale",  enHref: "/services/digital-transformation"  },
-  { key: "telecom",    icon: "📡", color: "#9B9EA3", frHref: "/services/telecom-reseaux-prives",    enHref: "/services/telecom-private-networks" },
+  { key: "telecom",    icon: "📡", color: "#F47920", frHref: "/services/telecom-reseaux-prives",    enHref: "/services/telecom-private-networks" },
   { key: "datacenter", icon: "🖥️", color: "#8B5E3C", frHref: "/services/datacenter",               enHref: "/services/datacenter"               },
   { key: "mobile",     icon: "📱", color: "#FF9A4A", frHref: "/services/applications-mobiles",     enHref: "/services/mobile-applications"      },
   { key: "ai",         icon: "🤖", color: "#C45D0A", frHref: "/services/agent-ia",                 enHref: "/services/ai-agents"                },
@@ -134,7 +134,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <SectionBadge text="Smart Cube Services" color="#6D6E71" />
+              <SectionBadge text="Smart Cube Services" color="#F47920" />
               <h2 className="text-4xl font-bold text-white mt-4 mb-4">{t("why.title")}</h2>
               <p className="text-slate-400 mb-8">{t("why.subtitle")}</p>
               <div className="space-y-5">

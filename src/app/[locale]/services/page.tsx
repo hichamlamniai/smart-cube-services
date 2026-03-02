@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 const serviceDetails = [
   { key: "digital",    icon: "🔄", color: "#F47920", frHref: "/services/transformation-digitale",  enHref: "/services/digital-transformation"  },
-  { key: "telecom",    icon: "📡", color: "#9B9EA3", frHref: "/services/telecom-reseaux-prives",    enHref: "/services/telecom-private-networks" },
+  { key: "telecom",    icon: "📡", color: "#F47920", frHref: "/services/telecom-reseaux-prives",    enHref: "/services/telecom-private-networks" },
   { key: "datacenter", icon: "🖥️", color: "#8B5E3C", frHref: "/services/datacenter",               enHref: "/services/datacenter"               },
   { key: "mobile",     icon: "📱", color: "#FF9A4A", frHref: "/services/applications-mobiles",     enHref: "/services/mobile-applications"      },
   { key: "ai",         icon: "🤖", color: "#C45D0A", frHref: "/services/agent-ia",                 enHref: "/services/ai-agents"                },

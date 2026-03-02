@@ -3,7 +3,7 @@ const R = 130; // rayon orbite
 
 const nodes = [
   { key: "digital",    label: "Digital",    emoji: "🔄", color: "#F47920", deg: -90  },
-  { key: "telecom",    label: "Télécom",    emoji: "📡", color: "#9B9EA3", deg: -18  },
+  { key: "telecom",    label: "Télécom",    emoji: "📡", color: "#F47920", deg: -18  },
   { key: "datacenter", label: "Datacenter", emoji: "🖥",  color: "#8B5E3C", deg:  54  },
   { key: "mobile",     label: "Mobile",     emoji: "📱", color: "#FF9A4A", deg: 126  },
   { key: "ai",         label: "Agent IA",   emoji: "🤖", color: "#C45D0A", deg: 198  },

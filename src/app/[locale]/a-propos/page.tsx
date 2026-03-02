@@ -3,7 +3,7 @@ import SectionBadge from "@/components/SectionBadge";
 import { Target, Eye, Award, Zap, Heart, Shield } from "lucide-react";
 
 const valueIcons = [Award, Zap, Heart, Shield];
-const valueColors = ["#F47920","#9B9EA3","#FF9A4A","#6D6E71"];
+const valueColors = ["#F47920","#FF9A4A","#C45D0A","#8B5E3C"];
 
 export default async function AboutPage() {
   const t = await getTranslations("about");
@@ -17,9 +17,9 @@ export default async function AboutPage() {
     { name: "Directeur Général",     role: "CEO & Fondateur",               initials: "DG", color: "#F47920" },
     { name: "Directeur Technique",   role: "CTO",                           initials: "DT", color: "#C45D0A" },
     { name: "Expert Digital",        role: "Digital Transformation Lead",   initials: "ED", color: "#FF9A4A" },
-    { name: "Expert Réseau",         role: "Network & Telecom Expert",      initials: "ER", color: "#9B9EA3" },
+    { name: "Expert Réseau",         role: "Network & Telecom Expert",      initials: "ER", color: "#F47920" },
     { name: "Expert IA",             role: "AI & Data Science Lead",        initials: "EA", color: "#8B5E3C" },
-    { name: "Responsable Formation", role: "Training Manager",              initials: "RF", color: "#6D6E71" },
+    { name: "Responsable Formation", role: "Training Manager",              initials: "RF", color: "#C45D0A" },
   ];
 
   return (
@@ -52,9 +52,9 @@ export default async function AboutPage() {
               <h2 className="text-2xl font-bold text-white mb-4">{t("mission.title")}</h2>
               <p className="text-slate-400 leading-relaxed">{t("mission.desc")}</p>
             </div>
-            <div className="bg-[#1C1C1C] border border-white/8 rounded-3xl p-10 hover:border-[#9B9EA3]/30 transition-all">
-              <div className="w-12 h-12 rounded-2xl bg-[#9B9EA3]/15 flex items-center justify-center mb-6">
-                <Eye size={24} className="text-[#9B9EA3]" />
+            <div className="bg-[#1C1C1C] border border-white/8 rounded-3xl p-10 hover:border-[#F47920]/30 transition-all">
+              <div className="w-12 h-12 rounded-2xl bg-[#F47920]/15 flex items-center justify-center mb-6">
+                <Eye size={24} className="text-[#F47920]" />
               </div>
               <h2 className="text-2xl font-bold text-white mb-4">{t("vision.title")}</h2>
               <p className="text-slate-400 leading-relaxed">{t("vision.desc")}</p>

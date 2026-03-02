@@ -27,7 +27,7 @@ export default function Footer() {
             <p className="text-slate-400 text-sm leading-relaxed mb-6">{t("desc")}</p>
             <div className="flex gap-3">
               <a href="#" className="w-9 h-9 rounded-lg bg-white/5 hover:bg-[#F47920] flex items-center justify-center text-slate-400 hover:text-white transition-all"><Linkedin size={16} /></a>
-              <a href="#" className="w-9 h-9 rounded-lg bg-white/5 hover:bg-[#6D6E71] flex items-center justify-center text-slate-400 hover:text-white transition-all"><Twitter size={16} /></a>
+              <a href="#" className="w-9 h-9 rounded-lg bg-white/5 hover:bg-[#F47920] flex items-center justify-center text-slate-400 hover:text-white transition-all"><Twitter size={16} /></a>
               <a href="#" className="w-9 h-9 rounded-lg bg-white/5 hover:bg-[#F47920] flex items-center justify-center text-slate-400 hover:text-white transition-all"><Globe size={16} /></a>
             </div>
           </div>
