@@ -10,7 +10,7 @@ export async function POST(req: NextRequest) {
   }
 
   const { error } = await resend.emails.send({
-    from: "Smart Cube Services <noreply@smartcubeservices.ma>",
+    from: "Smart Cube Services <noreply@smartcube.ma>",
     to:   "cubesmartservices@gmail.com",
     replyTo: email,
     subject: `Nouveau contact – ${service || "Site web"} | ${name}`,

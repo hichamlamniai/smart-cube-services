@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const base = "https://www.smartcubeservices.ma";
+const base = "https://www.smartcube.ma";
 
 const locales = ["fr", "en"] as const;
 
