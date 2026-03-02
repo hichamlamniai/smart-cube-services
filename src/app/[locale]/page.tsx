@@ -1,6 +1,7 @@
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 import SectionBadge from "@/components/SectionBadge";
+import HeroEcosystem from "@/components/HeroEcosystem";
 import { ArrowRight, CheckCircle, Zap, Shield, TrendingUp } from "lucide-react";
 
 const services = [
@@ -37,39 +38,37 @@ export default function HomePage() {
         <div className="absolute inset-0 grid-overlay" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-          <div className="max-w-4xl">
-            <div className="mb-6">
-              <SectionBadge text={t("hero.badge")} color="#F47920" />
+            <div className="grid xl:grid-cols-2 gap-12 items-center">
+            {/* Texte hero */}
+            <div>
+              <div className="mb-6">
+                <SectionBadge text={t("hero.badge")} color="#F47920" />
+              </div>
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
+                {t("hero.title")}{" "}
+                <span className="bg-gradient-to-r from-[#F47920] to-[#FF9A4A] bg-clip-text text-transparent">
+                  {t("hero.titleHighlight")}
+                </span>
+              </h1>
+              <p className="text-xl text-slate-300 leading-relaxed mb-10 max-w-2xl">
+                {t("hero.subtitle")}
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Link href={`/${locale}/services`}
+                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-[#F47920] hover:bg-[#FF9A4A] text-white font-semibold text-lg transition-all hover:shadow-xl hover:shadow-orange-500/25">
+                  {t("hero.cta1")} <ArrowRight size={20} />
+                </Link>
+                <Link href={`/${locale}/contact`}
+                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl border border-white/20 hover:border-[#F47920]/50 text-white font-semibold text-lg transition-all hover:bg-white/5">
+                  {t("hero.cta2")}
+                </Link>
+              </div>
             </div>
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
-              {t("hero.title")}{" "}
-              <span className="bg-gradient-to-r from-[#F47920] to-[#FF9A4A] bg-clip-text text-transparent">
-                {t("hero.titleHighlight")}
-              </span>
-            </h1>
-            <p className="text-xl text-slate-300 leading-relaxed mb-10 max-w-2xl">
-              {t("hero.subtitle")}
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Link href={`/${locale}/services`}
-                className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-[#F47920] hover:bg-[#FF9A4A] text-white font-semibold text-lg transition-all hover:shadow-xl hover:shadow-orange-500/25">
-                {t("hero.cta1")} <ArrowRight size={20} />
-              </Link>
-              <Link href={`/${locale}/contact`}
-                className="inline-flex items-center gap-2 px-8 py-4 rounded-xl border border-white/20 hover:border-[#F47920]/50 text-white font-semibold text-lg transition-all hover:bg-white/5">
-                {t("hero.cta2")}
-              </Link>
-            </div>
-          </div>
-        </div>
 
-        {/* Floating cube icons */}
-        <div className="absolute right-8 top-1/3 hidden xl:block">
-          <div className="grid grid-cols-2 gap-3 opacity-50">
-            {["🔄","📡","🖥️","📱","🤖","🔒"].map((icon, i) => (
-              <div key={i} className="w-14 h-14 glass rounded-xl flex items-center justify-center text-2xl animate-float"
-                style={{ animationDelay: `${i * 0.5}s` }}>{icon}</div>
-            ))}
+            {/* Visuel animé Digital Ecosystem */}
+            <div className="hidden xl:flex justify-center items-center">
+              <HeroEcosystem />
+            </div>
           </div>
         </div>
       </section>
