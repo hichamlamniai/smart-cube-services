@@ -3,21 +3,22 @@ import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 import SectionBadge from "@/components/SectionBadge";
-import { ArrowLeft, ArrowRight, BookOpen, Wrench, Users, Award } from "lucide-react";
+import JsonLd from "@/components/JsonLd";
+import { ArrowLeft, ArrowRight, BookOpen, Wrench, Users, Award, HelpCircle } from "lucide-react";
+
+const BASE = "https://www.smartcube.ma";
 
 type ServiceConfig = {
   key: string; icon: string; color: string;
-  slug: string; namespace: string;
+  slug: string; slugFr: string; slugEn: string; namespace: string;
 };
 
-// slug must match the canonical key in src/i18n/routing.ts pathnames
-// (next-intl middleware rewrites localized URLs to the canonical path before the page sees them)
 const serviceConfigs: ServiceConfig[] = [
-  { key: "digital",    icon: "🔄", color: "#F47920", slug: "transformation-digitale", namespace: "digital"     },
-  { key: "telecom",    icon: "📡", color: "#F47920", slug: "telecom",                 namespace: "telecom"     },
-  { key: "datacenter", icon: "🖥️", color: "#8B5E3C", slug: "datacenter",              namespace: "datacenter"  },
-  { key: "mobile",     icon: "📱", color: "#FF9A4A", slug: "applications-mobiles",    namespace: "mobile"      },
-  { key: "ai",         icon: "🤖", color: "#C45D0A", slug: "agent-ia",                namespace: "ai"          },
+  { key: "digital",    icon: "🔄", color: "#F47920", slug: "transformation-digitale", slugFr: "transformation-digitale", slugEn: "digital-transformation",  namespace: "digital"     },
+  { key: "telecom",    icon: "📡", color: "#F47920", slug: "telecom",                 slugFr: "telecom-reseaux-prives",   slugEn: "telecom-private-networks", namespace: "telecom"     },
+  { key: "datacenter", icon: "🖥️", color: "#8B5E3C", slug: "datacenter",              slugFr: "datacenter",              slugEn: "datacenter",               namespace: "datacenter"  },
+  { key: "mobile",     icon: "📱", color: "#FF9A4A", slug: "applications-mobiles",    slugFr: "applications-mobiles",    slugEn: "mobile-applications",      namespace: "mobile"      },
+  { key: "ai",         icon: "🤖", color: "#C45D0A", slug: "agent-ia",                slugFr: "agent-ia",                slugEn: "ai-agents",                namespace: "ai"          },
 ];
 
 const pillars = [
@@ -35,9 +36,26 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const config = serviceConfigs.find((s) => s.slug === slug);
   if (!config) return {};
   const t = await getTranslations({ locale, namespace: config.namespace });
+  const title = `${t("hero.title")} ${t("hero.titleHighlight")} – Smart Cube Services`;
+  const description = t("hero.subtitle");
+  const canonicalSlug = locale === "fr" ? config.slugFr : config.slugEn;
   return {
-    title: `${t("hero.title")} ${t("hero.titleHighlight")} – Smart Cube Services`,
-    description: t("hero.subtitle"),
+    title,
+    description,
+    alternates: {
+      canonical: `${BASE}/${locale}/services/${canonicalSlug}`,
+      languages: {
+        fr: `${BASE}/fr/services/${config.slugFr}`,
+        en: `${BASE}/en/services/${config.slugEn}`,
+        "x-default": `${BASE}/fr/services/${config.slugFr}`,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${BASE}/${locale}/services/${canonicalSlug}`,
+      siteName: "Smart Cube Services",
+    },
   };
 }
 
@@ -49,8 +67,33 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
   const t  = await getTranslations(config.namespace);
   const td = await getTranslations("serviceDetail");
 
+  const faqItems = [0, 1, 2].map((i) => ({
+    "@type": "Question",
+    name: t(`faq.${i}.q`),
+    acceptedAnswer: { "@type": "Answer", text: t(`faq.${i}.a`) },
+  }));
+
+  const serviceJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: `${t("hero.title")} ${t("hero.titleHighlight")}`,
+    provider: { "@type": "Organization", "@id": `${BASE}/#organization`, name: "Smart Cube Services" },
+    description: t("hero.subtitle"),
+    areaServed: ["MA", "Africa", "MENA"],
+    url: `${BASE}/${locale}/services/${locale === "fr" ? config.slugFr : config.slugEn}`,
+  };
+
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems,
+  };
+
   return (
     <div className="min-h-screen pt-20">
+      <JsonLd data={serviceJsonLd} />
+      <JsonLd data={faqJsonLd} />
+
       {/* Hero */}
       <section className="py-24 relative overflow-hidden">
         <div className="absolute inset-0 gradient-scs-dark" />
@@ -145,6 +188,29 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
           </div>
         </section>
       )}
+
+      {/* FAQ */}
+      <section className="py-16">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <SectionBadge text="FAQ" color={config.color} />
+            <h2 className="text-3xl font-bold text-white mt-4">{td("faqTitle")}</h2>
+          </div>
+          <div className="space-y-4">
+            {[0, 1, 2].map((i) => (
+              <div key={i} className="bg-[#1C1C1C] border border-white/8 hover:border-[#F47920]/20 rounded-2xl p-6 transition-all">
+                <div className="flex items-start gap-4 mb-3">
+                  <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5" style={{ background: `${config.color}18` }}>
+                    <HelpCircle size={16} style={{ color: config.color }} />
+                  </div>
+                  <h3 className="text-white font-semibold leading-snug">{t(`faq.${i}.q`)}</h3>
+                </div>
+                <p className="text-slate-400 text-sm leading-relaxed pl-12">{t(`faq.${i}.a`)}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* CTA */}
       <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

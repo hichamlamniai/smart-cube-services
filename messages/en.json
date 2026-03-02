@@ -111,7 +111,8 @@
       "desc": "Certification training programs to upskill your teams."
     },
     "cta": "Request a quote",
-    "back": "Back to services"
+    "back": "Back to services",
+    "faqTitle": "Frequently Asked Questions"
   },
   "digital": {
     "hero": {
@@ -146,7 +147,12 @@
         { "title": "Agile Project Management", "desc": "Scrum, SAFe certifications and agile methodologies." },
         { "title": "Cybersecurity Fundamentals", "desc": "Awareness and security best practices for all employees." }
       ]
-    }
+    },
+    "faq": [
+      { "q": "How much does a digital transformation project cost?", "a": "Cost adapts to your scope: a strategic audit starts with a few days of consulting, while a full transformation is budgeted according to your objectives. Contact us for a free, no-obligation quote." },
+      { "q": "Where should we start our digital transformation?", "a": "We recommend starting with a digital audit to assess your digital maturity, identify priorities, and build a concrete roadmap aligned with your business objectives." },
+      { "q": "How long does a digital transformation project take?", "a": "From 3 months for a pilot phase to 18 months for a complete transformation. Our projects are structured in agile sprints for fast deliverables and measurable ROI from the first weeks." }
+    ]
   },
   "telecom": {
     "hero": {
@@ -190,7 +196,12 @@
         { "name": "Inteliphys Suites", "desc": "Complete infrastructure management suite (IMS): inventory, documentation, monitoring and lifecycle management of your fiber and copper network assets." },
         { "name": "C-net", "desc": "Innovative solutions for telecom network management, documentation and optimization, offering total visibility across your entire infrastructure." }
       ]
-    }
+    },
+    "faq": [
+      { "q": "What network technologies do you deploy?", "a": "We deploy FTTH (residential fiber), FTTO (enterprise fiber), high-performance LAN/WiFi networks, and 4G/5G core networks, certified to ANSI/TIA and ITU-T standards." },
+      { "q": "What network monitoring tools do you use?", "a": "We use SolarWinds for NMS monitoring, Inteliphys Suites for IMS management, and C-net for complete documentation and optimization of your network infrastructures." },
+      { "q": "Do you offer network maintenance contracts?", "a": "Yes, we offer preventive and corrective maintenance contracts with defined SLAs, including 24/7 monitoring, on-site interventions, and remote technical support." }
+    ]
   },
   "datacenter": {
     "hero": {
@@ -234,7 +245,12 @@
         { "name": "Dell Technologies", "desc": "PowerEdge servers, PowerStore/PowerScale storage and VxRail hyper-converged solutions for critical datacenters." },
         { "name": "Nutanix", "desc": "HCI leader: hyper-converged infrastructure to simplify and optimize your datacenter operations with cloud-like management." }
       ]
-    }
+    },
+    "faq": [
+      { "q": "Do you offer both on-premise and cloud datacenter solutions?", "a": "Yes, we support both approaches and hybrid solutions. We work with you to define the optimal strategy based on your security, performance, and budget requirements." },
+      { "q": "What partner vendors do you use for datacenters?", "a": "We primarily work with Cisco, Dell Technologies, and Nutanix for servers, storage, and hyper-convergence, guaranteeing certified, highly available infrastructures." },
+      { "q": "Do you manage cloud migrations?", "a": "Yes, we support migrations to AWS, Azure, and Google Cloud: infrastructure audit, migration planning, deployment, and team training for a secure migration with no interruption." }
+    ]
   },
   "mobile": {
     "hero": {
@@ -278,7 +294,12 @@
         { "name": "Flutter / Dart", "desc": "Google's framework for creating high-performance native multiplatform apps with pixel-perfect rendering on iOS, Android and Web." },
         { "name": "Firebase & GCP", "desc": "Google's Backend-as-a-Service for authentication, real-time database, push notifications, storage and mobile app hosting." }
       ]
-    }
+    },
+    "faq": [
+      { "q": "Do you develop both iOS and Android apps?", "a": "Yes, we develop native iOS apps (Swift/SwiftUI) and Android apps (Kotlin/Jetpack Compose), as well as cross-platform apps with React Native and Flutter to maximize your ROI." },
+      { "q": "How long does it take to develop a mobile app?", "a": "An MVP is typically delivered in 2 to 3 months. A full app with backend, APIs, and integrations generally takes 4 to 8 months depending on complexity, with regular agile deliveries." },
+      { "q": "Do you provide maintenance after delivery?", "a": "Yes, we offer maintenance contracts including iOS/Android updates, bug fixes, new features, and production performance monitoring." }
+    ]
   },
   "ai": {
     "hero": {
@@ -322,7 +343,12 @@
         { "name": "OpenAI GPT-4", "desc": "GPT-4o and o1 models for intelligent chatbots, code generation, data analysis and large-scale multimodal content creation." },
         { "name": "LangChain & LlamaIndex", "desc": "RAG frameworks to connect your LLMs to internal data and build AI agents capable of reasoning over your documents and databases." }
       ]
-    }
+    },
+    "faq": [
+      { "q": "What AI models do you integrate?", "a": "We integrate the most advanced LLMs: Anthropic's Claude, OpenAI's GPT-4, and RAG frameworks (LangChain, LlamaIndex) to securely connect AI to your internal data." },
+      { "q": "How long does it take to deploy an AI agent?", "a": "A simple conversational agent can be deployed in 4 to 6 weeks. A complete RAG solution connected to your business data typically requires 2 to 4 months, depending on integration complexity." },
+      { "q": "Is our data secure with your AI solutions?", "a": "Security is at the core of our approach. We prioritize on-premise or private cloud deployments, apply data minimization principles, and comply with GDPR and local regulations." }
+    ]
   },
   "blog": {
     "title": "Blog & News",

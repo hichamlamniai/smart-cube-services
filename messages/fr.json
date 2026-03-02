@@ -111,7 +111,8 @@
       "desc": "Programmes de formation certifiants pour monter en compétences vos équipes."
     },
     "cta": "Demander un devis",
-    "back": "Retour aux services"
+    "back": "Retour aux services",
+    "faqTitle": "Questions Fréquentes"
   },
   "digital": {
     "hero": {
@@ -146,7 +147,12 @@
         { "title": "Gestion de Projet Agile", "desc": "Certifications Scrum, SAFe et méthodologies agiles." },
         { "title": "Cybersécurité Fondamentaux", "desc": "Sensibilisation et bonnes pratiques de sécurité pour tous les collaborateurs." }
       ]
-    }
+    },
+    "faq": [
+      { "q": "Combien coûte un projet de transformation digitale ?", "a": "Le coût s'adapte à votre périmètre : un audit stratégique débute à quelques jours de conseil, une transformation complète est budgétée selon vos objectifs. Contactez-nous pour un devis gratuit et sans engagement." },
+      { "q": "Par où commencer sa transformation digitale ?", "a": "Nous recommandons de débuter par un audit digital pour évaluer votre maturité numérique, identifier les priorités et construire une feuille de route concrète alignée sur vos objectifs métier." },
+      { "q": "Quelle est la durée d'un projet de transformation digitale ?", "a": "De 3 mois pour une phase pilote à 18 mois pour une transformation complète. Nos projets sont découpés en sprints agiles pour des livrables rapides et un ROI mesurable dès les premières semaines." }
+    ]
   },
   "telecom": {
     "hero": {
@@ -190,7 +196,12 @@
         { "name": "Inteliphys Suites", "desc": "Suite complète de gestion d'infrastructures (IMS) : inventaire, documentation, supervision et gestion du cycle de vie de vos actifs réseau fibre et cuivre." },
         { "name": "C-net", "desc": "Solutions innovantes pour la gestion, la documentation et l'optimisation des réseaux télécoms offrant une visibilité totale sur l'ensemble de votre infrastructure." }
       ]
-    }
+    },
+    "faq": [
+      { "q": "Quelles technologies réseau déployez-vous ?", "a": "Nous déployons des infrastructures FTTH (fibre résidentielle), FTTO (fibre entreprise), réseaux LAN/WiFi haute performance et réseaux cœur 4G/5G, certifiés selon les standards ANSI/TIA et ITU-T." },
+      { "q": "Quels outils de supervision réseau utilisez-vous ?", "a": "Nous maîtrisons SolarWinds pour le monitoring NMS, Inteliphys Suites pour la gestion IMS et C-net pour la documentation et l'optimisation complète de vos infrastructures réseau." },
+      { "q": "Proposez-vous des contrats de maintenance réseau ?", "a": "Oui, nous proposons des contrats de maintenance préventive et corrective avec des SLA définis, incluant supervision 24/7, interventions sur site et support technique à distance." }
+    ]
   },
   "datacenter": {
     "hero": {
@@ -234,7 +245,12 @@
         { "name": "Dell Technologies", "desc": "Serveurs PowerEdge, stockage PowerStore/PowerScale et solutions hyper-convergées VxRail pour datacenters critiques." },
         { "name": "Nutanix", "desc": "Leader HCI : infrastructure hyper-convergée pour simplifier et optimiser vos opérations datacenter avec une gestion cloud-like." }
       ]
-    }
+    },
+    "faq": [
+      { "q": "Proposez-vous des solutions datacenter on-premise et cloud ?", "a": "Oui, nous accompagnons les deux approches ainsi que les solutions hybrides. Nous définissons avec vous la stratégie optimale selon vos contraintes de sécurité, performance et budget." },
+      { "q": "Quels constructeurs partenaires utilisez-vous ?", "a": "Nous travaillons principalement avec Cisco, Dell Technologies et Nutanix pour les serveurs, le stockage et l'hyper-convergence, garantissant des infrastructures certifiées et hautement disponibles." },
+      { "q": "Gérez-vous les migrations vers le cloud ?", "a": "Oui, nous accompagnons vos migrations vers AWS, Azure et Google Cloud : audit de l'existant, planification, déploiement et formation de vos équipes pour une migration sécurisée et sans interruption." }
+    ]
   },
   "mobile": {
     "hero": {
@@ -278,7 +294,12 @@
         { "name": "Flutter / Dart", "desc": "Framework Google pour créer des applications mobiles natives haute performance et multiplateforme avec un rendu pixel-perfect sur iOS, Android et Web." },
         { "name": "Firebase & GCP", "desc": "Backend-as-a-Service Google pour authentification, base de données temps réel, push notifications, stockage et hébergement de vos applications mobiles." }
       ]
-    }
+    },
+    "faq": [
+      { "q": "Développez-vous des applications iOS et Android ?", "a": "Oui, nous développons des applications natives iOS (Swift/SwiftUI) et Android (Kotlin/Jetpack Compose), ainsi que des applications cross-platform avec React Native et Flutter pour maximiser votre ROI." },
+      { "q": "Quelle est la durée de développement d'une application mobile ?", "a": "Un MVP est livré en 2 à 3 mois. Une application complète avec backend, APIs et intégrations prend de 4 à 8 mois selon la complexité, avec des livraisons régulières en approche agile." },
+      { "q": "Assurez-vous la maintenance après la livraison ?", "a": "Oui, nous proposons des contrats de maintenance évolutive incluant les mises à jour iOS/Android, corrections de bugs, nouvelles fonctionnalités et monitoring des performances en production." }
+    ]
   },
   "ai": {
     "hero": {
@@ -322,7 +343,12 @@
         { "name": "OpenAI GPT-4", "desc": "Modèles GPT-4o et o1 pour chatbots intelligents, génération de code, analyse de données et création de contenu multimodal à grande échelle." },
         { "name": "LangChain & LlamaIndex", "desc": "Frameworks RAG pour connecter vos LLMs à vos données internes et construire des agents IA capables de raisonner sur vos documents et bases de données." }
       ]
-    }
+    },
+    "faq": [
+      { "q": "Quels modèles IA intégrez-vous dans vos solutions ?", "a": "Nous intégrons les LLMs les plus avancés : Claude d'Anthropic, GPT-4 d'OpenAI, ainsi que des frameworks RAG (LangChain, LlamaIndex) pour connecter l'IA à vos données internes de manière sécurisée." },
+      { "q": "Combien de temps faut-il pour déployer un agent IA ?", "a": "Un agent conversationnel simple est déployé en 4 à 6 semaines. Une solution RAG complète connectée à vos données métier nécessite généralement 2 à 4 mois, selon la complexité des intégrations." },
+      { "q": "Nos données sont-elles sécurisées avec vos solutions IA ?", "a": "La sécurité est au cœur de notre approche. Nous privilégions les déploiements on-premise ou cloud privé, appliquons les principes de minimisation des données et respectons les réglementations RGPD et locales." }
+    ]
   },
   "blog": {
     "title": "Blog & Actualités",
