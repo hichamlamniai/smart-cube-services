@@ -23,9 +23,11 @@ const categoryColors: Record<string, string> = {
 export default function BlogCard({ title, description, url, urlToImage, publishedAt, source, category = "international" }: BlogCardProps) {
   const color = categoryColors[category] || "#F47920";
   const date = new Date(publishedAt).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
+  const hasLink = url && url !== "#";
 
   return (
-    <a href={url} target="_blank" rel="noopener noreferrer"
+    <a href={hasLink ? url : undefined} target={hasLink ? "_blank" : undefined} rel={hasLink ? "noopener noreferrer" : undefined}
+      aria-disabled={!hasLink}
       className="group flex flex-col bg-white/5 hover:bg-white/8 border border-white/10 hover:border-white/20 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
       {urlToImage && (
         <div className="relative h-48 overflow-hidden">
