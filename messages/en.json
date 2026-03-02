@@ -48,6 +48,13 @@
         { "title": "Continuous Innovation", "desc": "Permanent technology watch to offer you the best solutions" }
       ]
     },
+    "whyCards": [
+      { "label": "Top certified", "value": "ISO 9001"          },
+      { "label": "Presence",      "value": "Africa & MENA"     },
+      { "label": "Avg response",  "value": "< 48h"             },
+      { "label": "Security",      "value": "100% confidential" }
+    ],
+    "partnersTitle": "Technologies & Partners",
     "cta": {
       "title": "Ready to transform your business?",
       "subtitle": "Contact our experts for a free audit of your digital needs",
@@ -213,10 +220,19 @@
     "formation": {
       "title": "Datacenter Training",
       "items": [
-        { "title": "VMware vSphere", "desc": "VCP certification and mastery of VMware virtualization." },
-        { "title": "Linux/Windows Server Administration", "desc": "Management and administration of server systems." },
-        { "title": "Cloud AWS/Azure/GCP", "desc": "Cloud certifications for architects and administrators." },
-        { "title": "Infrastructure Security", "desc": "Protecting datacenter environments from cyber threats." }
+        { "title": "VMware vSphere & NSX", "desc": "VCP-DCV certification and mastery of VMware virtualization and NSX virtual networking." },
+        { "title": "Linux/Windows Server Administration", "desc": "Server systems management: Active Directory, DNS, DHCP and security best practices." },
+        { "title": "Cloud AWS/Azure/GCP", "desc": "Cloud Solutions Architect certifications for designing hybrid and multicloud architectures." },
+        { "title": "Infrastructure Security", "desc": "Datacenter protection: next-gen firewalls, PAM, SIEM and ISO 27001 compliance." }
+      ]
+    },
+    "partners": {
+      "title": "Partner Technologies",
+      "subtitle": "We deploy the best market technologies for your critical datacenter infrastructure",
+      "items": [
+        { "name": "Cisco", "desc": "Datacenter network and compute infrastructure: Nexus switches, UCS servers and ACI network virtualization solutions." },
+        { "name": "Dell Technologies", "desc": "PowerEdge servers, PowerStore/PowerScale storage and VxRail hyper-converged solutions for critical datacenters." },
+        { "name": "Nutanix", "desc": "HCI leader: hyper-converged infrastructure to simplify and optimize your datacenter operations with cloud-like management." }
       ]
     }
   },
@@ -248,10 +264,19 @@
     "formation": {
       "title": "Mobile Development Training",
       "items": [
-        { "title": "iOS/Swift Development", "desc": "Complete iOS development training with the latest Apple technologies." },
-        { "title": "Android/Kotlin Development", "desc": "Mastering Android development with Kotlin and Jetpack Compose." },
-        { "title": "React Native", "desc": "Cross-platform application development with React Native." },
-        { "title": "Flutter & Dart", "desc": "Creating mobile applications with Google's Flutter framework." }
+        { "title": "iOS/Swift Development", "desc": "Complete iOS development training with Swift, SwiftUI and the latest Apple APIs." },
+        { "title": "Android/Kotlin Development", "desc": "Mastering Android development with Kotlin, Jetpack Compose and Google best practices." },
+        { "title": "React Native", "desc": "Cross-platform high-performance application development with React Native and Expo." },
+        { "title": "Flutter & Dart", "desc": "Multiplatform mobile app development with Flutter: pixel-perfect UI and high performance." }
+      ]
+    },
+    "partners": {
+      "title": "Mobile Technologies",
+      "subtitle": "We master the leading frameworks and platforms to develop your mobile applications",
+      "items": [
+        { "name": "React Native", "desc": "Meta's framework for building high-performance iOS and Android apps from a single JavaScript codebase, with native device API access." },
+        { "name": "Flutter / Dart", "desc": "Google's framework for creating high-performance native multiplatform apps with pixel-perfect rendering on iOS, Android and Web." },
+        { "name": "Firebase & GCP", "desc": "Google's Backend-as-a-Service for authentication, real-time database, push notifications, storage and mobile app hosting." }
       ]
     }
   },
@@ -285,8 +310,17 @@
       "items": [
         { "title": "AI for Managers", "desc": "Understanding AI challenges to manage AI projects in business." },
         { "title": "Machine Learning & Data Science", "desc": "Python, scikit-learn, TensorFlow training for data scientists." },
-        { "title": "Prompt Engineering", "desc": "Mastering LLMs and prompt engineering techniques for teams." },
-        { "title": "MLOps Deployment", "desc": "Putting AI models into production and monitoring in production environments." }
+        { "title": "Prompt Engineering & LLMs", "desc": "Mastering LLMs (Claude, GPT-4), advanced prompt engineering and RAG techniques for teams." },
+        { "title": "MLOps & AI Deployment", "desc": "Putting AI models into production, monitoring and maintenance with MLflow, Docker and Kubernetes." }
+      ]
+    },
+    "partners": {
+      "title": "AI Partners",
+      "subtitle": "We integrate the most advanced AI models and tools to develop your intelligent solutions",
+      "items": [
+        { "name": "Anthropic Claude", "desc": "Anthropic's Claude LLM for reliable and high-performance AI agents: document analysis, content generation and complex business process automation." },
+        { "name": "OpenAI GPT-4", "desc": "GPT-4o and o1 models for intelligent chatbots, code generation, data analysis and large-scale multimodal content creation." },
+        { "name": "LangChain & LlamaIndex", "desc": "RAG frameworks to connect your LLMs to internal data and build AI agents capable of reasoning over your documents and databases." }
       ]
     }
   },
@@ -369,6 +403,7 @@
     "company": "Company",
     "legal": "Legal notice",
     "privacy": "Privacy",
-    "rights": "All rights reserved"
+    "rights": "All rights reserved",
+    "operational": "Services operational"
   }
 }

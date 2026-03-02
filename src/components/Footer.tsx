@@ -69,7 +69,7 @@ export default function Footer() {
           <p className="text-slate-500 text-sm">© {year} Smart Cube Services. {t("rights")}.</p>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-[#F47920] animate-pulse" />
-            <span className="text-slate-500 text-xs">Services opérationnels</span>
+            <span className="text-slate-500 text-xs">{t("operational")}</span>
           </div>
         </div>
       </div>

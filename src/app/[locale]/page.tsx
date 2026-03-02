@@ -163,16 +163,11 @@ export default function HomePage() {
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              {[
-                { icon: "🏆", label: "Top certifié",   value: "ISO 9001"       },
-                { icon: "🌍", label: "Présence",        value: "Afrique & MENA" },
-                { icon: "⚡", label: "Délai moyen",     value: "< 48h réponse"  },
-                { icon: "🔒", label: "Sécurité",        value: "100% confidentiel"},
-              ].map((item, i) => (
+              {(["🏆","🌍","⚡","🔒"]).map((icon, i) => (
                 <div key={i} className="bg-[#1C1C1C] border border-white/8 rounded-2xl p-6 text-center hover:border-[#F47920]/30 transition-all">
-                  <div className="text-3xl mb-2">{item.icon}</div>
-                  <div className="text-slate-400 text-xs mb-1">{item.label}</div>
-                  <div className="text-white font-bold text-sm">{item.value}</div>
+                  <div className="text-3xl mb-2">{icon}</div>
+                  <div className="text-slate-400 text-xs mb-1">{t(`whyCards.${i}.label`)}</div>
+                  <div className="text-white font-bold text-sm">{t(`whyCards.${i}.value`)}</div>
                 </div>
               ))}
             </div>
@@ -184,7 +179,7 @@ export default function HomePage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-slate-500 text-sm uppercase tracking-widest">Technologies & Partenaires</p>
+            <p className="text-slate-500 text-sm uppercase tracking-widest">{t("partnersTitle")}</p>
           </div>
           <div className="flex flex-wrap justify-center gap-4 opacity-50">
             {["AWS","Microsoft Azure","Google Cloud","VMware","Cisco","Juniper","Red Hat","Oracle"].map((tech) => (

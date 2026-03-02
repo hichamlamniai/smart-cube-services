@@ -48,6 +48,13 @@
         { "title": "Innovation Continue", "desc": "Veille technologique permanente pour vous proposer les meilleures solutions" }
       ]
     },
+    "whyCards": [
+      { "label": "Top certifié",  "value": "ISO 9001"          },
+      { "label": "Présence",      "value": "Afrique & MENA"    },
+      { "label": "Délai moyen",   "value": "< 48h réponse"     },
+      { "label": "Sécurité",      "value": "100% confidentiel" }
+    ],
+    "partnersTitle": "Technologies & Partenaires",
     "cta": {
       "title": "Prêt à transformer votre entreprise ?",
       "subtitle": "Contactez nos experts pour un audit gratuit de vos besoins digitaux",
@@ -213,10 +220,19 @@
     "formation": {
       "title": "Formation Datacenter",
       "items": [
-        { "title": "VMware vSphere", "desc": "Certification VCP et maîtrise de la virtualisation VMware." },
-        { "title": "Administration Linux/Windows Server", "desc": "Gestion et administration des systèmes serveur." },
-        { "title": "Cloud AWS/Azure/GCP", "desc": "Certifications cloud pour architectes et administrateurs." },
-        { "title": "Sécurité des Infrastructures", "desc": "Protection des environnements datacenter contre les cybermenaces." }
+        { "title": "VMware vSphere & NSX", "desc": "Certification VCP-DCV et maîtrise de la virtualisation VMware et du réseau virtuel NSX." },
+        { "title": "Administration Linux/Windows Server", "desc": "Gestion et administration des systèmes serveur : Active Directory, DNS, DHCP, sécurité." },
+        { "title": "Cloud AWS/Azure/GCP", "desc": "Certifications cloud Solutions Architect pour concevoir des architectures hybrides et multicloud." },
+        { "title": "Sécurité des Infrastructures", "desc": "Protection des environnements datacenter : firewall next-gen, PAM, SIEM, conformité ISO 27001." }
+      ]
+    },
+    "partners": {
+      "title": "Technologies Partenaires",
+      "subtitle": "Nous déployons les meilleures technologies du marché pour vos infrastructures datacenter critiques",
+      "items": [
+        { "name": "Cisco", "desc": "Infrastructures réseau et compute pour datacenter : switches Nexus, serveurs UCS et solutions de virtualisation réseau ACI." },
+        { "name": "Dell Technologies", "desc": "Serveurs PowerEdge, stockage PowerStore/PowerScale et solutions hyper-convergées VxRail pour datacenters critiques." },
+        { "name": "Nutanix", "desc": "Leader HCI : infrastructure hyper-convergée pour simplifier et optimiser vos opérations datacenter avec une gestion cloud-like." }
       ]
     }
   },
@@ -248,10 +264,19 @@
     "formation": {
       "title": "Formation Développement Mobile",
       "items": [
-        { "title": "Développement iOS/Swift", "desc": "Formation complète au développement iOS avec les dernières technologies Apple." },
-        { "title": "Développement Android/Kotlin", "desc": "Maîtrise du développement Android avec Kotlin et Jetpack Compose." },
-        { "title": "React Native", "desc": "Développement d'applications cross-platform avec React Native." },
-        { "title": "Flutter & Dart", "desc": "Création d'applications mobiles avec le framework Flutter de Google." }
+        { "title": "Développement iOS/Swift", "desc": "Formation complète au développement iOS avec Swift, SwiftUI et les dernières APIs Apple." },
+        { "title": "Développement Android/Kotlin", "desc": "Maîtrise du développement Android avec Kotlin, Jetpack Compose et les bonnes pratiques Google." },
+        { "title": "React Native", "desc": "Développement d'applications cross-platform performantes avec React Native et Expo." },
+        { "title": "Flutter & Dart", "desc": "Création d'applications mobiles multiplateforme avec Flutter : UI pixel-perfect et haute performance." }
+      ]
+    },
+    "partners": {
+      "title": "Technologies Mobile",
+      "subtitle": "Nous maîtrisons les frameworks et plateformes leaders pour développer vos applications mobiles",
+      "items": [
+        { "name": "React Native", "desc": "Framework Meta pour développer des applications iOS et Android performantes depuis une base de code JavaScript unique, avec accès natif aux APIs du téléphone." },
+        { "name": "Flutter / Dart", "desc": "Framework Google pour créer des applications mobiles natives haute performance et multiplateforme avec un rendu pixel-perfect sur iOS, Android et Web." },
+        { "name": "Firebase & GCP", "desc": "Backend-as-a-Service Google pour authentification, base de données temps réel, push notifications, stockage et hébergement de vos applications mobiles." }
       ]
     }
   },
@@ -283,10 +308,19 @@
     "formation": {
       "title": "Formation Intelligence Artificielle",
       "items": [
-        { "title": "IA pour Managers", "desc": "Comprendre les enjeux de l'IA pour piloter les projets IA en entreprise." },
-        { "title": "Machine Learning & Data Science", "desc": "Formation Python, scikit-learn, TensorFlow pour data scientists." },
-        { "title": "Prompt Engineering", "desc": "Maîtrise des LLMs et techniques d'ingénierie de prompts pour les équipes." },
-        { "title": "Déploiement MLOps", "desc": "Mise en production et monitoring de modèles IA en environnement de production." }
+        { "title": "IA pour Managers & Dirigeants", "desc": "Comprendre les enjeux de l'IA générative, cadrer les projets IA et piloter la transformation IA de votre organisation." },
+        { "title": "Machine Learning & Data Science", "desc": "Formation Python, scikit-learn, TensorFlow et PyTorch pour data scientists et ingénieurs IA." },
+        { "title": "Prompt Engineering & LLMs", "desc": "Maîtrise des LLMs (Claude, GPT-4), techniques d'ingénierie de prompts avancée et RAG pour les équipes." },
+        { "title": "MLOps & Déploiement IA", "desc": "Mise en production, monitoring et maintenance de modèles IA avec MLflow, Docker et Kubernetes." }
+      ]
+    },
+    "partners": {
+      "title": "Partenaires IA",
+      "subtitle": "Nous intégrons les modèles et outils IA les plus avancés pour développer vos solutions intelligentes",
+      "items": [
+        { "name": "Anthropic Claude", "desc": "LLM Claude d'Anthropic pour des agents IA fiables et performants : analyse documentaire, génération de contenu et automatisation de processus métier complexes." },
+        { "name": "OpenAI GPT-4", "desc": "Modèles GPT-4o et o1 pour chatbots intelligents, génération de code, analyse de données et création de contenu multimodal à grande échelle." },
+        { "name": "LangChain & LlamaIndex", "desc": "Frameworks RAG pour connecter vos LLMs à vos données internes et construire des agents IA capables de raisonner sur vos documents et bases de données." }
       ]
     }
   },
@@ -369,6 +403,7 @@
     "company": "Entreprise",
     "legal": "Mentions légales",
     "privacy": "Confidentialité",
-    "rights": "Tous droits réservés"
+    "rights": "Tous droits réservés",
+    "operational": "Services opérationnels"
   }
 }

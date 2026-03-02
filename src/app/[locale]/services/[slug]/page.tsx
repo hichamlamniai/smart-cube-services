@@ -123,8 +123,8 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
         </div>
       </section>
 
-      {/* Partners – Telecom only */}
-      {config.key === "telecom" && (
+      {/* Partners – Telecom, Datacenter, Mobile & AI */}
+      {["telecom","datacenter","mobile","ai"].includes(config.key) && (
         <section className="py-16 bg-[#0D0D0D]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
